@@ -6,19 +6,20 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O He110 W0r1d é uma página web que agregará conteúdo voltados para a área de programação com informações para ajudar quem está indeciso ou com dificuldades em como começar no mundo da programação.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Adriano Borges Martins
+* Anna Karoline Nunes Miranda Guimaraes
+* Camila Fernanda da Silva
+* Douglas Evangelista dos Santos
+* João Gabriel Alves
+* Kelly Marques
 
 ## Orientador
 
-* Nome completo do professor 1
+* Hugo Bastos De Paula
 
 # Planejamento
 
