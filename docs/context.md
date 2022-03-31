@@ -14,7 +14,7 @@ Conseguir um emprego com conhecimento adquirido online, em seu próprio tempo, r
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver uma aplicação web com a finalidade de reunir e organizar conteúdo de introdução a programação para iniciantes.  
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
