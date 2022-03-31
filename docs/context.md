@@ -10,7 +10,7 @@ Nos últimos 20 anos, temos presenciado um "BOOM" na quantidade de informação 
 
 Segundo a SEMESP (Secretária de Modalidades Especializadas), quase 73% dos alunos de Ciência da Computação desistem do curso, e para Sistemas de Informação o percentual é de 67,3%. Essa alta taxa de evasão tem sido resultado de o mercado de T.I. estar muito aquecido no momento, ainda mais atualmente pela pandemia do COVID19, tornando possível se obter um bom emprego mesmo sem o diploma. Apesar de ser uma boa notícia para muitos, esse alto percentual também é resultado da falta de conhecimento sobre a área, criando expectativas que não condizem com a realidade — segundo Carlos Tosin, formado em Ciência da Computação e Mestre em Informática pela PUC-PR.
 
-Conseguir um emprego com conhecimento adquirido online, em seu próprio tempo, realmente é um grande atrativo, ainda mais quando vemos os salários dos profissionais na área, mas será mesmo tão simples?! Tomar uma decisão para qual caminho seguir, dentro de inúmeras opções para cursos e plataformas, gratuitas ou pagas, tantas linguagens a se aprender, qual material é mais adequado para se usar, deixando o aprendiz completamente perdido, estressado e impossibilitando seu progresso.
+Conseguir um emprego com conhecimento adquirido online, em seu próprio tempo, realmente é um grande atrativo, ainda mais quando vemos os salários dos profissionais na área, mas será mesmo tão simples?! Tomar uma decisão para qual caminho seguir, dentro de inúmeras opções para cursos e plataformas, gratuitas ou pagas, dentro de tantas linguagens, qual material é mais adequado, acaba deixando o aprendiz completamente perdido, estressado e inevitavelmente impossibilitando seu progresso.
 
 ## Objetivos
 
