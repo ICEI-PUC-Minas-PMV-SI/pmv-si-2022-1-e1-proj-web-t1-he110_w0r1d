@@ -7,7 +7,7 @@ Com a alta procura e baixa oferta de mão de obra, o mercado tem absorvido bons 
 
 ## Problema
 
-A indecisão no começo do aprendizado na programação é o principal motivo para estagnação e até mesmo a desistência da área. Qual linguagem aprender, o que são frameworks, qual caminho seguir para certas carreiras são sempre as dúvidas mais comuns hoje em dia. O interessado não sai do material introdutório e acaba não fazendo nenhum progresso até desistir, este fenômeno é chamado de "tutorial limbo".
+A indecisão no começo do aprendizado na programação é o principal motivo para estagnação e até mesmo a desistência da área. Qual linguagem aprender, o que são frameworks, qual caminho seguir para certas carreiras são sempre as dúvidas mais comuns hoje em dia. O interessado não sai do material introdutório e acaba não fazendo nenhum progresso até desistir sem nem mesmo adiquirir conhecimentos essenciais sobre ferramentas básicas, por muitas vezes pegar como base conteúdos além das suas capacidades, este fenômeno é chamado de "tutorial limbo".
 
 Nos últimos 20 anos, temos presenciado um "BOOM" na quantidade de informação gerada e publicada na internet, tornando-se de fácil acesso para todos, fato do qual devemos nos orgulhar! No entanto isso também gera um problema crítico que é a abundância de informação imprecisa, sem nenhuma garantia de validez, dificultando os primeiros passos para quem quer entrar na área de fato. A falta de organização dessas informações leva ao sentimento de sobrecarga no aprendiz que não sabe o que estudar, levando-o ao grande consumo de vlogs sobre programação, quais linguagens estão quentes no mercado agora, qual IDE(Integrated Development Environment — VS Code, Atom, Sublime...) é melhor, entre várias outras questões que acabam sendo usadas como iscas para cliques e vendas de material inútil nas redes sociais.
 
@@ -26,9 +26,6 @@ Desenvolver uma aplicação web com a finalidade de reunir e organizar conteúdo
 - Disponibilizar sessão "hands on" com desafios e exercícios práticos para ajudar a assimilar e fixar o conteúdo. 
 
 - Criar uma comunidade de interação entre programadores iniciantes e mais experientes para networking e colaboração.
-
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
