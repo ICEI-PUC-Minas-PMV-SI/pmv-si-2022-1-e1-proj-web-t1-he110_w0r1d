@@ -19,8 +19,9 @@ Aprender no seu próprio tempo, em casa, com recursos disponíveis na internet e
 
 Desenvolver uma aplicação web com a finalidade de reunir e organizar conteúdo de introdução a programação para iniciantes.  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
-- Disponibilizar conteúdo organizado focando no que realmente importa para iniciantes desenvolverem uma base solida na programação. 
+## Objetivos Específicos 
+
+- Organizar conteúdo focando no que realmente importa para iniciantes desenvolverem uma base solida na programação. 
 
 - Disponibilizar sessão "hands on" com desafios e exercícios práticos para ajudar a assimilar e fixar o conteúdo. 
 
