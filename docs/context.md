@@ -9,7 +9,7 @@ Com a alta procura e baixa oferta de mão de obra, o mercado tem absorvido bons 
 
 A indecisão no começo do aprendizado na programação é o principal motivo para estagnação e até mesmo a desistência da área. Qual linguagem aprender, o que são frameworks, qual caminho seguir para certas carreiras são sempre as dúvidas mais comuns hoje em dia. O interessado não sai do material introdutório e acaba não fazendo nenhum progresso até desistir sem nem mesmo adiquirir conhecimentos essenciais sobre ferramentas básicas, por muitas vezes pegar como base conteúdos além das suas capacidades, este fenômeno é chamado de "tutorial limbo".
 
-Nos últimos 20 anos, temos presenciado um "BOOM" na quantidade de informação gerada e publicada na internet, tornando-se de fácil acesso para todos, fato do qual devemos nos orgulhar! No entanto isso também gera um problema crítico que é a abundância de informação imprecisa, sem nenhuma garantia de validez, dificultando os primeiros passos para quem quer entrar na área de fato. A falta de organização dessas informações leva ao sentimento de sobrecarga no aprendiz que não sabe o que estudar, levando-o ao grande consumo de vlogs sobre programação, quais linguagens estão quentes no mercado agora, qual IDE(Integrated Development Environment — VS Code, Atom, Sublime...) é melhor, entre várias outras questões que acabam sendo usadas como iscas para cliques e vendas de material inútil nas redes sociais.
+Nos últimos 20 anos, temos presenciado um "BOOM" na quantidade de informação gerada e publicada na internet, tornando-se de fácil acesso para todos, fato do qual devemos nos orgulhar! No entanto isso também gera um problema crítico que é a abundância de informação imprecisa, sem nenhuma garantia de validez, dificultando os primeiros passos para quem quer entrar na área de fato. A falta de organização dessas informações leva ao sentimento de sobrecarga no aprendiz que não sabe o que estudar, levando-o ao grande consumo de vlogs sobre programação, quais linguagens estão quentes no mercado agora, qual IDE (Integrated Development Environment — VS Code, Atom, Sublime...) é melhor, entre várias outras questões que acabam sendo usadas como iscas para cliques e vendas de material inútil nas redes sociais.
 
 Segundo a SEMESP (Secretária de Modalidades Especializadas), quase 73% dos alunos de Ciência da Computação desistem do curso, para Sistemas de Informação o percentual é de 67,3%. Essa alta taxa de evasão tem sido resultado de o mercado de T.I. estar muito aquecido no momento, ainda mais atualmente pela pandemia do COVID19, tornando-se possível obter um bom emprego mesmo sem o diploma. Apesar de ser uma boa notícia para muitos, este alto percentual também é resultado da falta de conhecimento sobre a área, criando expectativas que não condizem com a realidade — afirma Carlos Tosin, formado em Ciência da Computação e Mestre em Informática pela PUC-PR.
 
@@ -19,11 +19,11 @@ Aprender no seu próprio tempo, em casa, com recursos disponíveis na internet e
 
 Desenvolver uma aplicação web com a finalidade de reunir e organizar conteúdo de introdução a programação para iniciantes.  
 
-## Objetivos Específicos 
+## Objetivos Específicos
 
-- Organizar conteúdo focando no que realmente importa para iniciantes desenvolverem uma base solida na programação. 
+- Organizar conteúdo focando no que realmente importa para iniciantes desenvolverem uma base solida na programação.
 
-- Disponibilizar sessão "hands on" com desafios e exercícios práticos para ajudar a assimilar e fixar o conteúdo. 
+- Disponibilizar sessão "hands on" com desafios e exercícios práticos para ajudar a assimilar e fixar o conteúdo.
 
 - Criar uma comunidade de interação entre programadores iniciantes e mais experientes para networking e colaboração.
 
