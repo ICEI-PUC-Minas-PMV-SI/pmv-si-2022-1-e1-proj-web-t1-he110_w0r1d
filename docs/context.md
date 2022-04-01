@@ -1,7 +1,7 @@
 # Introdução
 O mercado da tecnologia da informação mostra se cada vez mais aquecido. De acordo com a projeção da Brasscom (Associação das Empresas de Tecnologia da Informação e Comunicação e de Tecnologias Digitais), serão criados no Brasil mais de 795 mil postos de trabalho na área até 2025. Segundo o INEP (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira), formam se por ano no ensino superior cerca de 50 mil estudantes do ramo de TI. Esse número é aproximadamente quatro vezes menor do que a demanda da área.
 
-Com a alta procura e baixa oferta de mão de obra, o mercado tem absorvido bons profissionais sem que esses tenham a necessidade de possuir um diploma, apenas conhecimento técnico. Ofertando salário e benefícios atrativos, o setor da tecnologia tem despertado cada vez mais interesse de todos os públicos e a procura por cursos introdutórios no âmbito aumentado. Mas com tantas linguagens e metodologias da área, por onde começar? Ter um local que te direcione é fundamental no início dessa nova jornada, então vamos lá?
+Com a alta procura e baixa oferta de mão de obra, o mercado tem absorvido bons profissionais sem que esses tenham a necessidade de possuir um diploma, apenas conhecimento técnico. Ofertando salário e benefícios atrativos, o setor da tecnologia tem despertado cada vez mais interesse de todos os públicos e a procura por cursos introdutórios no âmbito aumentado. Mas com tantas linguagens e metodologias da área, por onde começar? Ter um local que te direcione é fundamental no início dessa nova jornada, então vamos lá? 
 
 
 
