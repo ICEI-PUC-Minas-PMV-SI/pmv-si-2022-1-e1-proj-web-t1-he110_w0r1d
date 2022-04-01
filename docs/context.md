@@ -20,6 +20,11 @@ Aprender no seu próprio tempo, em casa, com recursos disponíveis na internet e
 Desenvolver uma aplicação web com a finalidade de reunir e organizar conteúdo de introdução a programação para iniciantes.  
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+- Disponibilizar conteúdo organizado focando no que realmente importa para iniciantes desenvolverem uma base solida na programação. 
+
+- Disponibilizar sessão "hands on" com desafios e exercícios práticos para ajudar a assimilar e fixar o conteúdo. 
+
+- Criar uma comunidade de interação entre programadores iniciantes e mais experientes para networking e colaboração.
 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
