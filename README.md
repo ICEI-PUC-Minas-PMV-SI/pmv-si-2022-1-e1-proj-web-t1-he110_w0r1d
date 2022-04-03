@@ -10,10 +10,10 @@ O He110 W0r1d é uma página web que agregará conteúdo voltados para a área d
 
 ## Integrantes
 
-* Adriano Borges Martins
 * Anna Karoline Nunes Miranda Guimaraes
 * Camila Fernanda da Silva
 * Douglas Evangelista dos Santos
+* Geovani Paixão
 * João Gabriel Alves
 * Kelly Marques
 
