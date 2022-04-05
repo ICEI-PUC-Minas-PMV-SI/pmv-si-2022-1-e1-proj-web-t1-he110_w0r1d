@@ -6,6 +6,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+<div align="justify">
+
+1. Marcos tem 22 anos, acabou de sair da faculdade de administração e atualmente trabalha no atendimento do provedor de internet de sua cidade no interior de Minas Gerais. Ele ouviu de um amigo que o mercado de trabalho para T.I. está com uma alta nunca vista antes e crescendo cada dia mais. Marcos sempre teve afinidade com computadores, mas nunca programou e nem sabe por onde começar, seu amigo o recomenda canais de vlogs com dicas para iniciantes. Entretanto, acontece algo que é frequente nos casos com iniciantes na área de programação... Marcos fica viciado em assistir dicas, vlogs e trends relacionadas a programação nas redes sociais. Resultado disso, Marcos está perdido, sabe a diferença entre Python e Javascript, mas não tem noção de como usar nenhuma das linguagens. Marcos deseja aprender completamente do 0 e ter um conteúdo que é indicado para ele.
+
+2. Juliana tem 41 anos, é professora de Inglês de uma grande escola privada de línguas em Belo Horizonte, Minas Gerais, ela também dá aulas particulares 1:1 para alunos mais velhos devido a pandemia do COVID19, a qual impossibilitou suas aulas presenciais. Durante esse período, seu marido que trabalha remotamente como Analista de Sistemas para uma empresa Canadense, apresentou para sua esposa, a oportunidade de fazer algo diferente e mudar de carreira. Juliana ficou muito interessada, mas seu marido não dispõe do tempo necessário para ensiná-la, sendo assim, ela busca material online para aprender mais sobre seu campo de interesse que agora é a programação. Surpresa com a quantidade disponível ela se sente sobrecarregada em realizar seu trabalho e ainda ter que pesquisar material para seu aprendizado, Juliana gostaria de algo prático e confiável para evitar o desperdício de tempo.
+
+</div>
+
+-- Informação de template deixada intacta para servir como guia durante o desenvolvimento da sessão. --
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
@@ -46,7 +55,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA |
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
 
@@ -54,8 +63,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA |
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
