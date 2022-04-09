@@ -63,6 +63,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| Utilização do HTML5 no desenvolvimento do site         |
 
 
-<hr>
+<br>
 
-<p align="right"><a href="./context.md">Documentação de Contexto</a>
+<p align="right"><a href="./context.md">Contexto</a>

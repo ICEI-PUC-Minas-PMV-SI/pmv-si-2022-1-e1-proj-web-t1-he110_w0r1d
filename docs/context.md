@@ -37,6 +37,6 @@ Esta Aplicação é indicada para iniciantes com pouco ou sem nenhum conheciment
 
 </div>
 
-<hr>
+<br>
 
 <p align="right"><a href="./especification.md">Especificações</a></p>
