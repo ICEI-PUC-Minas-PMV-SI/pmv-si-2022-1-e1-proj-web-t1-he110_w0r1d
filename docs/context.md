@@ -33,7 +33,7 @@ Desenvolver uma aplicação web com a finalidade de reunir e organizar conteúdo
 
 ## Público-Alvo
 
-Esta Aplicação é indicada para iniciantes com pouco ou sem nenhum conhecimento em programação, leigos ou estudantes de nível técnico ou superior que queiram adentrar no mundo da programação de computadores e melhorar seu raciocínio lógico. Sem restrição de gênero, idade ou qualquer outra condição. O único requisito é saber usar um computador e um browser (Internet Explorer, Firefox, Safari ou Google Chrome).
+Esta Aplicação é indicada para iniciantes com pouco ou sem nenhum conhecimento em programação, leigos ou estudantes de nível técnico ou superior que queiram adentrar no mundo da programação de computadores e melhorar seu raciocínio lógico. Sem restrição de gênero, idade ou qualquer outra condição. O único requisito é saber usar um computador e um browser (Microsoft Edge, Firefox, Safari ou Google Chrome).
 
 </div>
 
