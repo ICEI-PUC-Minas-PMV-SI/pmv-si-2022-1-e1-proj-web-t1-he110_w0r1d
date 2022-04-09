@@ -1,9 +1,5 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
 <div align="justify">
@@ -11,21 +7,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 Marcos Oliveira tem 25 anos, é recém formado em administração de empresas e atualmente trabalha em um escritório de contabilidade no interior de Minas Gerais. Marcos era muito jovem quando ingressou na faculdade, e, por influência dos pais, escolheu estudar uma área que não o da possibilidade de viver o estilo de vida de seus sonhos, por esse motivo deseja migrar para a área de T.I. Para Marcos é importante um trabalho que o proporcione liberdade geográfica. “Tenho o sonho de conhecer o mundo e morar em vários países para viver diferentes culturas. Experiencias são tudo o que levamos da vida". (Oliveira, M. 04, 2022) Marcos sempre teve afinidade com computadores, jogos e tem interesse em como softwares são desenvolvidos, porem nunca programou e não sabe por onde começar a aprender. Ele se inscreveu em alguns canais do youtube com dicas para iniciantes, entretanto, não sabe como organizar o conteúdo por ordem de prioridade e não consegue manter o foco devido à quantidade de informação solta e sem conexão uma com a outra. Marcos deseja aprender completamente do 0 e busca por conteúdo relevante e melhor estruturado para facilitar seus estudos.
 
 </div>
-
--- Informação de template deixada intacta para servir como guia durante o desenvolvimento da sessão. --
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -35,14 +16,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Interessado em ingressar na área de T.I. | Encontrar informação|Saber por onde e como começar para que se possa atingir o objetivo de ingressar na área de T.I.|           
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -54,6 +27,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário acesse links de conteúdos externos, como youtube e sites | ALTA |
 |RF-002| Ter área para momentos hands-on, como code pen  | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
@@ -86,12 +60,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|04| Utilizaão do HTML5 no desenvolvimento do site         |
+|03| Utilização do HTML5 no desenvolvimento do site         |
 
 
+<hr>
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+<p align="right"><a href="./context.md">Documentação de Contexto</a>
