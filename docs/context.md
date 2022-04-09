@@ -29,7 +29,7 @@ Desenvolver uma aplicação web com a finalidade de reunir e organizar conteúdo
 
 ## Justificativa
 
- Atualmente, existe um leque de possiblidades de estudo no mundo de TI que, infelizmente, grande parte das vezes, estando o estudante sem uma orientaçao espeficica e concisa, acaba se perdendo no caminho ficando perdido, cansado e angustiado. Sabendo disso, o projeto se destina a aqueles que tem o desejo de entrar no mundo da programaçao/desenvolvimento mas que nao tem um norte bem estruturado sobre como trilhar esse caminho e muito menos quais plataformas e meios de estudo recorrer para sua formaçao. 
+ Atualmente, existe um leque de possiblidades de estudo no mundo de TI que, infelizmente, grande parte das vezes, estando o estudante sem uma orientaçao espeficica e concisa, acaba se perdendo no caminho e ficando perdido, cansado e angustiado. Sabendo disso, o projeto se destina a aqueles que tem o desejo de entrar no mundo da programaçao/desenvolvimento mas que nao tem um norte bem estruturado sobre como trilhar esse caminho e muito menos quais plataformas e meios de estudo recorrer para sua formaçao. 
 
 ## Público-Alvo
 
