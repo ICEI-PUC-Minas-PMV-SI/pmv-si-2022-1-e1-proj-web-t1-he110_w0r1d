@@ -14,7 +14,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Interessado em ingressar na área de T.I. | Encontrar informação|Saber por onde e como começar para que se possa atingir o objetivo de ingressar na área de T.I.|           
+|Interessado em ingressar na área de T.I. | Encontrar informação|Saber por onde e como começar para que se possa atingir o objetivo de ingressar na área de T.I.| 
+|Interessado em ingressar na área de T.I. | Sanar minhas dúvidas sobre a área|Ter mais clareza sobre o que o mercado de T.I espera de um iniciante no ramo e por quais linguagens seguir. |
+|Interessado em transionar de carreira para a área de T.I. |Compartilhar minha experiênica no fórum |Conhecer outras pessoas que estejam em situação parecida para troca de experiência e informação da área a se ingressar. |
 
 
 ## Requisitos
