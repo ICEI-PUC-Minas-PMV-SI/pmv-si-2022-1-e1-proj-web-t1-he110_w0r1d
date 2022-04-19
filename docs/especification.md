@@ -61,7 +61,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Interface responsiva a dispositivos móveis | MÉDIA |
 |RNF-002| A página deverá ter alta disponibilidade | BAIXA |
-|RNF-004| Exibir recomendações de palestras | BAIXA |
 
 
 ## Restrições
