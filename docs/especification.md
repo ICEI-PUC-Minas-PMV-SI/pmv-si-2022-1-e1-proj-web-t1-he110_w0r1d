@@ -46,6 +46,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| Disponibilizar uma sessão com conteúdo motivacional para programadores| BAIXA |
 |RF-012| Disponibilizar uma sessão com notícias pertinentes a programação| BAIXA |
 |RF-013| Disponibilizar uma sessão com recursos complementares recomendado para iniciantes| BAIXA |
+|RF-014| Disponibilizar uma página com os primeiros passos para um programador, como configuração de IDE| ALTA |
+|RF-015| Disponibilizar uma página com os primeiros fundamentos desejáveis para ser um bom programador| ALTA |
 
 
 ### Requisitos não Funcionais
