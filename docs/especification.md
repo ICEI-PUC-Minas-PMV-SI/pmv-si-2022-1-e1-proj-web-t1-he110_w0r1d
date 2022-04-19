@@ -14,7 +14,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Aluno |Encontrar informação|Salvar meu progresso automaticamente |Recomeçar as aulas de onde parei sempre que fizer uma pausa 
+|Aluno |Salvar meu progresso automaticamente |Recomeçar as aulas de onde parei sempre que fizer uma pausa 
 |Aluno |Espaço para fazer exercícios |Fixar melhor o conteúdo das aulas
 |Aluno |Um espaço para troca, networking e colaboração |Dividir conhecimento e começar a fazer contato na área
 |Aluno |Baixar certificado do curso |Colocar no meu curriculum 
