@@ -14,7 +14,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Aprendiz de Programação|Encontrar cursos de linguagem|Para me especializar em uma linguagem que eu tenha preferência|
+|Aprendiz de Programação|Encontrar cursos de linguagens de programação|Para me especializar em uma linguagem que eu tenha preferência|
 |Aprendiz de Programação|Encontrar eventos de programação|Conhecer e aprender sobre novas tecnologias dentro da programação|
 |Aprendiz de Programação|Encontrar material complementar|Aprimorar meu conhecimento geral de programação|
 |Aprendiz de Programação|Encontrar exercícios e desafios|Praticar minha habilidade de programar|
