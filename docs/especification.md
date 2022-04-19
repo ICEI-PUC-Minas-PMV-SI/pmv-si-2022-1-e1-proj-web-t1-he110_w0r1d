@@ -14,18 +14,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Aluno |Salvar meu progresso automaticamente |Recomeçar as aulas de onde parei sempre que fizer uma pausa
-|Aluno |Espaço para fazer exercícios |Fixar melhor o conteúdo das aulas
-|Aluno |Um espaço para troca, networking e colaboração |Dividir conhecimento e começar a fazer contato na área
-|Aluno |Baixar certificado do curso |Colocar no meu curriculum
-|Aluno |Pagar o curso via boleto |Não comprometer o limite do meu cartão
-|Aluno |Acesso a palestras com dicas sobre como ingressar na área |Me preparar para o mercado de trabalho enquanto estudo
-|Aluno |Acesso a palestras motivacionais |Não desanimar e me manter motivado durante o processo de aprendizagem
-|Aluno |Uma descrição do que devo conseguir fazer ao final de cada aula |Confirmar se estou acompanhando e absorvendo os conteúdos como deveria
-|Aluno |Um espaço de contato ou aba "help" |Para enviar duvidas relacionadas ao uso da plataforma
-|Aluno |Links que me encaminhem para artigos complementares às matérias do curso |Garantir que eu tenha uma visão muito mais completa sobre cada assunto
-|Aluno |Além dos videos, ter acesso a transcrição das aulas |Ter um reforço do conteúdo através da leitura
-|Aluno |Avaliar e comentar as aulas |Eu ter acesso a conteúdos cada vez melhores
+|Aprendiz de Programação|Encontrar cursos de linguagem|Para me especializar em uma linguagem que eu tenha preferência|
+|Aprendiz de Programação|Encontrar eventos de programação|Conhecer e aprender sobre novas tecnologias dentro da programação|
+|Aprendiz de Programação|Encontrar material complementar|Aprimorar meu conhecimento geral de programação|
+|Aprendiz de Programação|Encontrar exercícios e desafios|Praticar minha habilidade de programar|
+|Aprendiz de Programação|Encontrar dicas para iniciantes|Otimizar meu aprendizado e evitar redundâncias|
+|Aprendiz de Programação|Encontrar grupos sociais de programadores|Para fazer parte de uma comunidade de programadores, trocar experiências e me aprofundar na programação|
+|Aprendiz de Programação|Encontrar conteúdo motivacional|Para me manter motivado a ser um programador|
+|Aprendiz de Programação|Encontrar podcasts e notícias|Ler e ouvir depoimentos, discussões e dicas de outros programadores experientes e me manter atualizado|
+|Aprendiz de Programação|Obter suporte|Para sanar dúvidas sobre o site e seu conteúdo|
 
 
 ## Requisitos
@@ -36,23 +33,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Criar área de cadastro e login | ALTA |
-|RF-002| Disponibilizar um certificado digital para download | ALTA |
-|RF-003| Disponibilizar exercícios de prática | ALTA |
-|RF-004| Disponibilizar transcrição das videoaulas | ALTA |
-|RF-005| Disponibilizar página para pagamento do curso | ALTA |
-|RF-006| Disponibilizar um sumário para o conteúdo das aulas | MÉDIA |
-|RF-007| Disponibilizar uma funcionalidade para salvar o progresso do usuário | MÉDIA |
-|RF-008| Disponibilizar campo para postagem de perguntas e respostas | MÉDIA |
-|RF-009| Exibir notificação ao receber uma reposta no fórum | BAIXA |
-|RF-010| Exibir notificação de eventuais erros no sistema | BAIXA |
-|RF-011| Disponibilizar página com eventos de TI | BAIXA |
-|RF-012| Disponibilizar a funcionalidade para o usuário ser notificado sobre próximos eventos | BAIXA |
-|RF-013| Disponibilizar material complementar e referências no final da aula | BAIXA |
-|RF-014| Disponibilizar uma área para comentários e avaliação das aulas | BAIXA |
-|RF-015| Disponibilizar um resumo do que deve ser compreendido na aula | BAIXA |
-|RF-016| Disponibilizar uma página com depoimentos de ex-alunos | BAIXA |
-|RF-017| Disponibilizar uma área para contato | BAIXA |
+|RF-001| Disponibilizar uma área com palestras sobre programação| ALTA |
+|RF-002| Disponibilizar uma área com eventos de programação| ALTA |
+|RF-003| Disponibilizar um redirecionamento para exercícios adicionais| MÉDIA |
+|RF-004| Disponibilizar uma página com dicas de programação e ferramentas| ALTA |
+|RF-005| Disponibilizar uma página com exercícios básicos de programação| ALTA |
+|RF-006| Disponibilizar uma página com cursos das principais linguagens de programação| ALTA |
+|RF-007| Disponibilizar uma página com desafios de lógica e programação| MÉDIA |
+|RF-008| Disponibilizar uma página com grupos de mídias sociais para programadores| MÉDIA |
+|RF-009| Disponibilizar uma página com os principais podcasts sobre programação| BAIXA |
+|RF-010| Disponibilizar uma página para obter suporte sobre o sistema| BAIXA |
+|RF-011| Disponibilizar uma sessão com conteúdo motivacional para programadores| BAIXA |
+|RF-012| Disponibilizar uma sessão com notícias pertinentes a programação| BAIXA |
+|RF-013| Disponibilizar uma sessão com recursos complementares recomendado para iniciantes| BAIXA |
 
 
 ### Requisitos não Funcionais
