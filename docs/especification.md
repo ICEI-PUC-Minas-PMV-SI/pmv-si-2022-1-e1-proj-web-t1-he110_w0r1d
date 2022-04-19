@@ -54,13 +54,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-016| Disponibilizar uma área para contato | BAIXA |
 
 
-
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| Interface responsiva a dispositivos móveis | MÉDIA |
 |RNF-002| A página deverá ter alta disponibilidade | BAIXA |
+|RNF-003| Disponibilizar modo escuro para o sistema | BAIXA |
 
 
 ## Restrições
