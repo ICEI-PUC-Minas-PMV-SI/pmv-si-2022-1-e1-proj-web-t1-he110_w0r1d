@@ -15,7 +15,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Aluno |Encontrar informação|Salvar meu progresso automaticamente |Recomeçar as aulas de onde parei sempre que fizer uma pausa 
-|Aluno |Espaço para fazer exerciicios |Fixar melhor o conteúdo das aulas
+|Aluno |Espaço para fazer exercícios |Fixar melhor o conteúdo das aulas
 |Aluno |Um espaço para troca, networking e colaboração |Dividir conhecimento e começar a fazer contato na área
 |Aluno |Baixar certificado do curso |Colocar no meu curriculum 
 |Aluno |Pagar o curso via boleto |Não comprometer o limite do meu cartão
@@ -25,7 +25,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Aluno |Um espaço de contato ou aba "help" |Para enviar duvidas relacionadas ao uso da plataforma 
 |Aluno |Links que me encaminhem para artigos complementares às matérias do curso |Garantir que eu tenha uma visão muito mais completa sobre cada assunto
 |Aluno |Além dos videos, ter acesso a transcriçäo das aulas |Ter um reforço do conteúdo através da leitura
-|Aluno |Avaliar as aulas |Através do meu feedback, ter conteúdos cada vez melhores
+|Aluno |Avaliar e comentar as aulas |Eu ter acesso a conteúdos cada vez melhores 
 
 
 ## Requisitos
