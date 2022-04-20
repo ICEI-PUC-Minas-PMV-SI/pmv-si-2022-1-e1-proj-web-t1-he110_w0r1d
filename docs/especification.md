@@ -14,16 +14,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Aprendiz de Programação|Encontrar aulas de programação|Começar meus primeiros passos na programação e desenvolvimento|
-|Aprendiz de Programação|Encontrar material complementar|Aprimorar meu conhecimento geral de programação|
-|Aprendiz de Programação|Encontrar cursos de linguagens de programação|Para me especializar em uma linguagem que eu tenha preferência|
-|Aprendiz de Programação|Encontrar eventos de programação|Conhecer e aprender sobre novas tecnologias dentro da programação|
-|Aprendiz de Programação|Encontrar exercícios e desafios|Praticar minha habilidade de programar|
-|Aprendiz de Programação|Encontrar dicas para iniciantes|Otimizar meu aprendizado e evitar redundâncias|
-|Aprendiz de Programação|Encontrar grupos sociais de programadores|Para fazer parte de uma comunidade de programadores, trocar experiências e me aprofundar na programação|
-|Aprendiz de Programação|Encontrar conteúdo motivacional|Para me manter motivado a ser um programador|
-|Aprendiz de Programação|Encontrar podcasts e notícias|Ler e ouvir depoimentos, discussões e dicas de outros programadores experientes e me manter atualizado|
-|Aprendiz de Programação|Obter suporte|Para sanar dúvidas sobre o site e seu conteúdo|
+|Interessada em Programação|Encontrar aulas de programação|Começar meus primeiros passos na programação e desenvolvimento|
+|Interessada em Programação|Encontrar material complementar|Aprimorar meu conhecimento geral de programação|
+|Interessada em Programação|Encontrar cursos de linguagens de programação|Para me especializar em uma linguagem que eu tenha preferência|
+|Interessada em Programação|Encontrar eventos de programação|Conhecer e aprender sobre novas tecnologias dentro da programação|
+|Interessada em Programação|Encontrar exercícios e desafios|Praticar minha habilidade de programar|
+|Interessada em Programação|Encontrar dicas para iniciantes|Otimizar meu aprendizado e evitar redundâncias|
+|Interessada em Programação|Encontrar grupos sociais de programadores|Para fazer parte de uma comunidade de programadores, trocar experiências e me aprofundar na programação|
+|Interessada em Programação|Encontrar conteúdo motivacional|Para me manter motivado a ser um programador|
+|Interessada em Programação|Encontrar podcasts e notícias|Ler e ouvir depoimentos, discussões e dicas de outros programadores experientes e me manter atualizado|
+|Interessada em Programação|Obter suporte|Para sanar dúvidas sobre o site e seu conteúdo|
 
 
 ## Requisitos
