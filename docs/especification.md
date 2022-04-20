@@ -37,7 +37,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Disponibilizar uma página com os primeiros passos para um programador, como configuração de IDE| ALTA |
 |RF-002| Disponibilizar uma página com os fundamentos desejáveis para ser um bom programador| ALTA |
 |RF-003| Disponibilizar uma página com cursos das principais linguagens de programação| ALTA |
-|RF-004| Disponibilizar uma página com desafios lógicos e exercícios de programação| ALTA |
+|RF-004| Disponibilizar uma página com exemplo de exercícios de programação| ALTA |
 |RF-005| Disponibilizar uma página com dicas de programação e ferramentas| ALTA |
 |RF-006| Disponibilizar uma página com eventos de programação| ALTA |
 |RF-007| Disponibilizar uma página para obter suporte sobre o sistema| MÉDIA |
@@ -72,4 +72,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 <br>
 
-<p align="right"><a href="./context.md">Contexto</a>
+<p align="right"><a href="./context.md">Contexto</a> | <a href="./interface.md">Fluxo de Usuário & UI</a></p>
