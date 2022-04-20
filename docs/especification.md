@@ -34,21 +34,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Disponibilizar uma área com palestras sobre programação| ALTA |
-|RF-002| Disponibilizar uma área com eventos de programação| ALTA |
-|RF-003| Disponibilizar uma página com dicas de programação e ferramentas| ALTA |
-|RF-004| Disponibilizar uma página com exercícios básicos de programação| ALTA |
-|RF-005| Disponibilizar uma página com cursos das principais linguagens de programação| ALTA |
-|RF-006| Disponibilizar uma página com os primeiros passos para um programador, como configuração de IDE| ALTA |
-|RF-007| Disponibilizar uma página com os primeiros fundamentos desejáveis para ser um bom programador| ALTA |
-|RF-008| Disponibilizar uma página com desafios de lógica e programação| MÉDIA |
-|RF-009| Disponibilizar uma página com grupos de mídias sociais para programadores| MÉDIA |
-|RF-010| Disponibilizar uma página para obter suporte sobre o sistema| BAIXA |
-|RF-011| Disponibilizar um redirecionamento para exercícios adicionais| BAIXA |
-|RF-012| Disponibilizar uma seção com os principais podcasts sobre programação| BAIXA |
-|RF-013| Disponibilizar uma seção com conteúdo motivacional para programadores| BAIXA |
-|RF-014| Disponibilizar uma seção com notícias pertinentes a programação| BAIXA |
-|RF-015| Disponibilizar uma seção com recursos complementares recomendado para iniciantes| BAIXA |
+|RF-001| Disponibilizar uma página com os primeiros passos para um programador, como configuração de IDE| ALTA |
+|RF-002| Disponibilizar uma página com os fundamentos desejáveis para ser um bom programador| ALTA |
+|RF-003| Disponibilizar uma página com cursos das principais linguagens de programação| ALTA |
+|RF-004| Disponibilizar uma página com desafios lógicos e exercícios de programação| ALTA |
+|RF-005| Disponibilizar uma página com dicas de programação e ferramentas| ALTA |
+|RF-006| Disponibilizar uma página com eventos de programação| ALTA |
+|RF-007| Disponibilizar uma página para obter suporte sobre o sistema| MÉDIA |
+|RF-008| Disponibilizar uma área com palestras sobre programação| MÉDIA |
+|RF-009| Disponibilizar uma área com grupos de mídias sociais para programadores| MÉDIA |
+|RF-010| Disponibilizar uma seção com notícias pertinentes a programação| BAIXA |
+|RF-011| Disponibilizar uma seção com os principais podcasts sobre programação| BAIXA |
+|RF-012| Disponibilizar uma seção com conteúdo motivacional para programadores| BAIXA |
+|RF-013| Disponibilizar uma seção com recursos complementares recomendado para iniciantes| BAIXA |
+|RF-014| Disponibilizar um redirecionamento para exercícios adicionais| BAIXA |
 
 
 ### Requisitos não Funcionais
