@@ -55,7 +55,7 @@ Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionad
 
 ### Linguagens: Exercícios
 
-Ao clicar no botão "Prática" na página inicial, o usuário será direcionado para a página de exercícios. Na página ele encontrará os exercícios separados por linguagens e com links externos que o permitirão colocar em ação aquilo que foi aprendido. Os links levarão o usuário a exercícios para inicantes e também à plataformas que permitirão ao ulitizador salvar seu progresso e ver seu desenvolvimento na linguagem de sua preferência.
+Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionado para um sub menu onde poderá escolher a opção exercícios. Na página ele encontrará os exercícios separados por linguagens e com links externos que o permitirão colocar em ação aquilo que foi aprendido. Os links levarão o usuário a exercícios para inicantes e também à plataformas que permitirão ao ulitizador salvar seu progresso e ver seu desenvolvimento na linguagem de sua preferência.
 
 ![Wireframe Exercícios](img/pratica.png)
 
@@ -67,7 +67,7 @@ Na página inicial o usuário consegue acessar a página "Nóticias" ao clicar n
 
 ### Blog: Podcasts
 
-Ao clicar no botão "Blog" na página inicial, o usuário poderá selecionar a opção "Podcasts" que irá navegá-lo para a página abaixo, nela o usuário encontrará podcasts com informações sobre tecnologia, sobre o dia a dia de pessoas que trabalham na área da tecnologia e  dicas e notícias para se manterem atualizados.A página contará com diversos podcasts, onde serão destacados os dez mais interessantes, fazendo-se um breve descrição dos assuntos abordados em cada podcasts, e os demais, não menos interessantes, virão com seu link ao final da página.     
+Ao clicar no botão "Blog" na página inicial, o usuário poderá selecionar a opção "Podcasts", em um sub menu, que irá direciona-lo para a página abaixo. Nela o usuário encontrará podcasts com informações sobre tecnologia, sobre o dia a dia de pessoas que trabalham na área da tecnologia e  dicas e notícias para se manterem atualizados.A página contará com diversos podcasts, onde serão destacados os dez mais interessantes, fazendo-se um breve descrição dos assuntos abordados em cada podcasts, e os demais, não menos interessantes, virão com seu link ao final da página.     
 
 ![Wireframe Podcasts](img/podcasts.png)
 
