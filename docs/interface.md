@@ -50,13 +50,14 @@ Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá se
 
 %DESCRIÇÃO%
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionado para um sub menu onde poderá escolher a opção JavaScript. Na página ele encontrará uma breve introdução sobre a linguagem, onde se usa-lá, a sintaxe básica, como a linguagem atua no ambiente web, a difernça entre Java e JavaScript e por fim será apresentado em vídeo uma explicação mais detalhada dos tópicos anteriormente citados.
+  ![Wireframe JavaScript](img/guia_javasript.png)
 
 ### Linguagens: Exercícios
 
 Ao clicar no botão "Prática" na página inicial, o usuário será direcionado para a página de exercícios. Na página ele encontrará os exercícios separados por linguagens e com links externos que o permitirão colocar em ação aquilo que foi aprendido. Os links levarão o usuário a exercícios para inicantes e também à plataformas que permitirão ao ulitizador salvar seu progresso e ver seu desenvolvimento na linguagem de sua preferência.
 
-![Wireframe Prática](img/pratica.png)
+![Wireframe Exercícios](img/pratica.png)
 
 ### Blog: Notícias
 
