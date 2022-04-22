@@ -54,9 +54,9 @@ Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá se
 
 ### Linguagens: Exercícios
 
-%DESCRIÇÃO%
+Ao clicar no botão "Prática" na página inicial, o usuário será direcionado para a página de exercícios. Na página ele encontrará os exercícios separados por linguagens e com links externos que o permitirão colocar em ação aquilo que foi aprendido. Os links levarão o usuário a exercícios para inicantes e também à plataformas que permitirão ao ulitizador salvar seu progresso e ver seu desenvolvimento na linguagem de sua preferência.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe Prática](img/pratica.png)
 
 ### Blog: Notícias
 
