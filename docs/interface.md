@@ -38,9 +38,11 @@ Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá se
 
 ### Linguagens: HTML
 
-%DESCRIÇÃO%
+Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionado para um sub menu onde poderá escolher a opção HTML.
+Na página ele encontrará uma breve introdução sobre o HTML, o motivo de não ser consderado uma lingugem de programação, usos comuns para os quais ela se aplica,as novidades que o HTML5 trás consigo e sua estrutura base,
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+![Wireframe %_nome da página_%](img/guia_html-wireframe.png)
 
 ### Linguagens: CSS
 
@@ -81,9 +83,10 @@ O usuário encontrará a opção "Ferramentas para Desenvolvedores" ao clicar no
 
 ### Blog: Dicas
 
-%DESCRIÇÃO%
+Ao clicar no botão a opção "Dicas" ao clicar no botão "Blog" que irá navegá-lo para a página abaixo, que consiste em informações e ferramentas que podem fazer a vida do programador mais simples, como plugins e nuggets, o princípio do clean code, uma prática que facilita no momento de manutenções e revisões no código e por fim algumas dicas de como o programador procurar por soluções para erros encontrados.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+![Wireframe Dicas](img/dicas-wireframe.png)
 
 ### Eventos: Eventos Presenciais
 
