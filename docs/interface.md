@@ -14,7 +14,9 @@ O projeto está dividido em 5 menus principais: Primeiros Passos, Linguagens, Bl
 
 ### Homepage
 
-[homepade-wireframe](img//homepage-wireframe.png) Esta é a homepage do wireframe.
+A home page é composta por um texto que explica o objetivo do site e oque o usuário irá encontrar pela frente. Em seguida, é apresentado botoes, posicionados em sentido de " escada no sentindo descendo " para que o usuario entenda por onde começar. Ao clicar, o usuario terá acesso ao conteudo de forma sequencial ou individual se clicar no menu e escolher a página que deseja entrar. Logo abaixo o usuário encontra uma apresentaçao sobre o informaçoes gerais do projeto e equipe. Por fim, um box de notícias relevantes que estão atreladas ao mundo da programaçao. 
+
+[homepade-wireframe](img/homepage.png)
 
 ### Primeiros Passos: Guia de IDEs
 
@@ -42,9 +44,9 @@ Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá se
 
 ### Linguagens: CSS
 
-%DESCRIÇÃO%
+Ao clicar diretamente no botão " CSS " ou se seguir a sequencia do conteúdo de linguagens, o usuário terá acesso ao conteudo destinado para a explicaçao sobre CSS. A página é composta por explicações sobre oque é CSS, como funciona, layuots responsivos , tutorial em video e por ultimo uma explicação sobre o bootstrap seguido de imagens que retratam seus componentes de uso.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe CSS e seus principais recursos](img/css_e_principais_recursos.png)
 
 ### Linguagens: JavaScript
 
@@ -102,9 +104,9 @@ O usuário encontrará a opção "Ferramentas para Desenvolvedores" ao clicar no
 
 ### Contato: Quem Somos
 
-%DESCRIÇÃO%
+A página destinada a " Quem somos" apresenta ao usuário um breve texto que conta sobre a formaçao do projeto e também as informaçoes da equipe. Além disso, ao final, é apresentado blocos com os nomes de cada membro da equipe bem como o seu github para que o usuario possa conhecer nao somente quem criou o projeto mas também saber mais sobre outros projetos criados pelos mesmos.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe %_nome da página_%](img/quem_somos.png)
 
 ### Contato: Ajuda
 
