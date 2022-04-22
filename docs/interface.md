@@ -108,9 +108,9 @@ O usuário encontrará a opção "Ferramentas para Desenvolvedores" ao clicar no
 
 ### Contato: Ajuda
 
-%DESCRIÇÃO%
+Ao clicar no botão "Contato" seguido da opção "Ajuda" presente na página inicial, é apresentado um formulário simples de Nome, Email, Assunto e Descrição para que o usuário envie um pedido de suporte.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe Ajuda](img/ajuda-wireframe.png)
 
 </div>
 
