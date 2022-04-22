@@ -8,20 +8,112 @@ O projeto está dividido em 5 menus principais: Primeiros Passos, Linguagens, Bl
 ![Userflow Hello World](img//userflow.png)
 
 
-
 ## Wireframes
 
-1- [homepade-wireframe](img//homepage-wireframe.png) Esta é a homepage do wireframe. 
-2-
+<div align="justify">
 
+### Homepage
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+[homepade-wireframe](img//homepage-wireframe.png) Esta é a homepage do wireframe.
 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+### Primeiros Passos: Guia de IDEs
+
+Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar entre 3 opções sendo "Guia de IDEs" um deles, que apresentará para o usuário a página abaixo com os principais editores de código disponíveis, tal como uma menção bônus do WebStorm (IDE dedicado para Frontend feito pela JetBrains - o qual possui uma licença anual para estudantes). No final da página o usuário encontra um vídeo externo comparando os editores mencionados.
+
+![Wireframe Editores de Código](img/guia_sobre_editores_de_codigo-wireframe.png)
+
+### Primeiros Passos: Fundamentos
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Primeiros Passos: Guia do Git
+
+Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar a opção "Guia do Git" que irá navegá-lo para a página abaixo, nela o usuário encontra informações sobre a utilidade e instalação do git. Chaves SSH e links para a documentação no github ensinando o necessário e um vídeo sobre o mesmo assunto. Por fim um vídeo para personalização do perfil do github como bônus e os principais comandos utilizados no fluxo de trabalho com git.
+
+![Wireframe Guia do Git](img/guia_do_git-wireframe.png)
+
+### Linguagens: HTML
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Linguagens: CSS
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Linguagens: JavaScript
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Linguagens: Exercícios
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Blog: Notícias
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Blog: Podcasts
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Blog: Ferramentas para Desenvolvedores
+
+O usuário encontrará a opção "Ferramentas para Desenvolvedores" ao clicar no botão "Blog" na página inicial, essa página consiste em um agregado de ferramentas úteis para facilitar o trabalho do desenvolvedor em diversas áreas, feitas em postagens explicando brevemente em texto uma ferramenta específica e um vídeo ao lado falando sobre ela, como usar ou dicas para otimizar o uso dela.
+
+![Wireframe Ferramentas para Desenvolvedores](img/ferramentas_para_desenvolvedores-wireframe.png)
+
+### Blog: Dicas
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Eventos: Eventos Presenciais
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Eventos: Eventos Online
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Eventos: Palestras
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Contato: Quem Somos
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+### Contato: Ajuda
+
+%DESCRIÇÃO%
+
+![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+</div>
+
+<br>
+
+<p align="right"><a href="./especification.md">Especificações</a>

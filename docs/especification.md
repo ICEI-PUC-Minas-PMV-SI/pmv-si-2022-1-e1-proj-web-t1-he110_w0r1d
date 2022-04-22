@@ -34,9 +34,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Disponibilizar uma página com os primeiros passos para um programador, como configuração de IDE| ALTA |
+|RF-001| Disponibilizar uma página com os primeiros passos para um programador| ALTA |
 |RF-002| Disponibilizar uma página com os fundamentos desejáveis para ser um bom programador| ALTA |
-|RF-003| Disponibilizar uma página com cursos das principais linguagens de programação| ALTA |
+|RF-003| Disponibilizar páginas com cursos das principais linguagens de programação| ALTA |
 |RF-004| Disponibilizar uma página com exemplo de exercícios de programação| ALTA |
 |RF-005| Disponibilizar uma página com dicas de programação e ferramentas| ALTA |
 |RF-006| Disponibilizar uma página com eventos de programação| ALTA |
@@ -56,7 +56,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Interface responsiva e compatível com dispositivos móveis | ALTA |
 |RNF-002| A página deverá ter alta disponibilidade | ALTA |
-|RNF-003| Disponibilizar modo escuro para o sistema | BAIXA |
+|RNF-003| Disponibilizar modo escuro para todas o site | BAIXA |
 
 
 ## Restrições
