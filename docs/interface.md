@@ -22,11 +22,11 @@ Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá se
 
 ![Wireframe Editores de Código](img/guia_sobre_editores_de_codigo-wireframe.png)
 
-### Primeiros Passos: Fundamentos
+### Primeiros Passos: Fundamentos para aprender a programar
 
-%DESCRIÇÃO%
+Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar a opção "Fundamentos para aprender a programar" que irá navegá-lo para a página abaixo, nela o usuário encontra informações sobre fundamentos desejáveis para uma pessoa que deseja se um programar. Com explicações sobre a importância dos fundamentos matemáticos, assim como fontes externas de como se atualizar sobre. Além de uma área voltada para lógica de programação, acompanhada por um exemplo de código simples, com seu pseudocódigo e por fim um fluxograma representando seu funcionamento, mostrando assim para o usuário algumas das diferentes representações de uma lógica, além do código propriamente dito.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe Fundamentos para aprender a programar](img/fundamentos_para_aprender_a_programar-wireframe.png)
 
 ### Primeiros Passos: Guia do Git
 
