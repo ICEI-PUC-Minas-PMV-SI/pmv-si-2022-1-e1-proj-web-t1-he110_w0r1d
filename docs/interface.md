@@ -79,9 +79,10 @@ O usuário encontrará a opção "Ferramentas para Desenvolvedores" ao clicar no
 
 ### Blog: Dicas
 
-%DESCRIÇÃO%
+Ao clicar no botão a opção "Dicas" ao clicar no botão "Blog" que irá navegá-lo para a página abaixo, que consiste em informações e ferramentas que podem fazer a vida do programador mais simples, como plugins e nuggets, o princípio do clean code, uma prática que facilita no momento de manutenções e revisões no código e por fim algumas dicas de como o programador procurar por soluções para erros encontrados.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+
+![Wireframe Dicas](img/dicas-wireframe.png)
 
 ### Eventos: Eventos Presenciais
 
