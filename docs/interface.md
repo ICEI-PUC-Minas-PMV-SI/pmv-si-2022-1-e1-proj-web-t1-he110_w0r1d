@@ -66,9 +66,9 @@ Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá se
 
 ### Blog: Podcasts
 
-%DESCRIÇÃO%
+Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar a opção "Podcasts" que irá navegá-lo para a página abaixo, nela o usuário encontrará podcasts com informações sobre tecnologia, sobre o dia a dia de pessoas que trabalham na área da tecnologia e  dicas e notícias para se manterem atualizados.A página contará com diversos podcasts, onde serão destacados os dez mais interessantes, fazendo-se um breve descrição dos assuntos abordados em cada podcasts, e os demais,não menos interessantes, virão com seu link ao final da página.     
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe Podcasts](img/podcasts.png)
 
 ### Blog: Ferramentas para Desenvolvedores
 
