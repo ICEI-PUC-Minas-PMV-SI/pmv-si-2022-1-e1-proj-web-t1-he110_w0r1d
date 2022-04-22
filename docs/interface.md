@@ -60,9 +60,9 @@ Ao clicar no botão "Prática" na página inicial, o usuário será direcionado 
 
 ### Blog: Notícias
 
-%DESCRIÇÃO%
+Na página inicial o usuário consegue acessar a página "Nóticias" ao clicar no botão "Blog", ela apresenta um carrossel com links externos para notícias, cards e postagens com links externos.
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe Notícias](img/noticias-wireframe)
 
 ### Blog: Podcasts
 
