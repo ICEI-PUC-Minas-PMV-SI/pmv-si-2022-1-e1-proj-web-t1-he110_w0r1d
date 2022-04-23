@@ -88,23 +88,17 @@ Ao clicar no botão a opção "Dicas" ao clicar no botão "Blog" que irá naveg�
 
 ![Wireframe Dicas](img/dicas-wireframe.png)
 
-### Eventos: Eventos Presenciais
+### Eventos Lista 
 
-%DESCRIÇÃO%
+Ao clicar no botão eventos no menu principal, o usuário será encaminhado para uma pagina onde terá acesso a uma lista com todos os eventos disponíveis. Nessa pagina, poderá filtrar os eventos por categoria (online e / ou presencial) e / ou ordenar por data ( de mais recentes para mais antigos /  de mais antigos para mais recentes). Ao clicar no video ou foto do evento, o usuário será encaminhado para uma pagina de detalhes onde terá acesso a mais informações sobre aquele evento. 
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe eventos lista](img/eventos-lista.png)
 
-### Eventos: Eventos Online
+### Eventos Detalhe
 
-%DESCRIÇÃO%
+Ao clicar em uma foto ou video na pagina de Eventos - Lista, o usuário será encaminhado para a pagina de detalhes do evento selecionado. Nessa pagina, o usuário verá uma descrição sobre o evento com todos os detalhes. Se for um evento presencial, ele terá, também, acesso a hora, data e endereço e terá acesso ao link que o encaminhará para comprar ingressos ou se inscrever gratuitamente para participar. Se for um evento online, além da descrição o usuário poderá assistir ao video diretamente da pagina de detalhes. 
 
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
-
-### Eventos: Palestras
-
-%DESCRIÇÃO%
-
-![Wireframe %_nome da página_%](img/%_nome-do-arquivo_%)
+![Wireframe eventos detalhe](img/eventos-detalhe.png)
 
 ### Contato: Quem Somos
 
