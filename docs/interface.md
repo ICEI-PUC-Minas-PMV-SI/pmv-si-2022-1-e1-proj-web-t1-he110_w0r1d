@@ -14,7 +14,7 @@ O projeto está dividido em 5 menus principais: Primeiros Passos, Linguagens, Bl
 
 ### Homepage
 
-A home page é composta por um texto que explica o objetivo do site e oque o usuário irá encontrar pela frente. Em seguida, é apresentado botoes, posicionados em sentido de " escada no sentindo descendo " para que o usuario entenda por onde começar. Ao clicar, o usuario terá acesso ao conteudo de forma sequencial ou individual se clicar no menu e escolher a página que deseja entrar. Logo abaixo o usuário encontra uma apresentaçao sobre o informaçoes gerais do projeto e equipe. Por fim, um box de notícias relevantes que estão atreladas ao mundo da programaçao. 
+A home page é composta por um texto que explica o objetivo do site e oque o usuário irá encontrar pela frente. Em seguida, é apresentado botoes, posicionados em sentido de " escada no sentindo descendo " para que o usuario entenda por onde começar. Ao clicar, o usuario terá acesso ao conteudo de forma sequencial ou individual se clicar no menu e escolher a página que deseja entrar. Logo abaixo o usuário encontra uma apresentaçao sobre o informaçoes gerais do projeto e equipe. Por fim, um box de notícias relevantes que estão atreladas ao mundo da programaçao.
 
 [homepade-wireframe](img/homepage.png)
 
@@ -67,7 +67,7 @@ Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionad
 
 Na página inicial o usuário consegue acessar a página "Nóticias" ao clicar no botão "Blog", ela apresenta um carrossel com links externos para notícias, cards e postagens com links externos.
 
-![Wireframe Notícias](img/noticias-wireframe)
+![Wireframe Notícias](img/noticias-wireframe.png)
 
 ### Blog: Podcasts
 
@@ -88,15 +88,15 @@ Ao clicar no botão a opção "Dicas" ao clicar no botão "Blog" que irá naveg�
 
 ![Wireframe Dicas](img/dicas-wireframe.png)
 
-### Eventos Lista 
+### Eventos Lista
 
-Ao clicar no botão eventos no menu principal, o usuário será encaminhado para uma pagina onde terá acesso a uma lista com todos os eventos disponíveis. Nessa pagina, poderá filtrar os eventos por categoria (online e / ou presencial) e / ou ordenar por data ( de mais recentes para mais antigos /  de mais antigos para mais recentes). Ao clicar no video ou foto do evento, o usuário será encaminhado para uma pagina de detalhes onde terá acesso a mais informações sobre aquele evento. 
+Ao clicar no botão eventos no menu principal, o usuário será encaminhado para uma pagina onde terá acesso a uma lista com todos os eventos disponíveis. Nessa pagina, poderá filtrar os eventos por categoria (online e / ou presencial) e / ou ordenar por data ( de mais recentes para mais antigos /  de mais antigos para mais recentes). Ao clicar no video ou foto do evento, o usuário será encaminhado para uma pagina de detalhes onde terá acesso a mais informações sobre aquele evento.
 
 ![Wireframe eventos lista](img/eventos-lista.png)
 
 ### Eventos Detalhe
 
-Ao clicar em uma foto ou video na pagina de Eventos - Lista, o usuário será encaminhado para a pagina de detalhes do evento selecionado. Nessa pagina, o usuário verá uma descrição sobre o evento com todos os detalhes. Se for um evento presencial, ele terá, também, acesso a hora, data e endereço e terá acesso ao link que o encaminhará para comprar ingressos ou se inscrever gratuitamente para participar. Se for um evento online, além da descrição o usuário poderá assistir ao video diretamente da pagina de detalhes. 
+Ao clicar em uma foto ou video na pagina de Eventos - Lista, o usuário será encaminhado para a pagina de detalhes do evento selecionado. Nessa pagina, o usuário verá uma descrição sobre o evento com todos os detalhes. Se for um evento presencial, ele terá, também, acesso a hora, data e endereço e terá acesso ao link que o encaminhará para comprar ingressos ou se inscrever gratuitamente para participar. Se for um evento online, além da descrição o usuário poderá assistir ao video diretamente da pagina de detalhes.
 
 ![Wireframe eventos detalhe](img/eventos-detalhe.png)
 
