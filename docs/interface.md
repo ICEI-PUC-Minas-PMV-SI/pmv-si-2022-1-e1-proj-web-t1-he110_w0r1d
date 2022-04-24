@@ -57,6 +57,12 @@ Ao clicar diretamente no botão " CSS " ou se seguir a sequencia do conteúdo de
 Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionado para um sub menu onde poderá escolher a opção JavaScript. Na página ele encontrará uma breve introdução sobre a linguagem, onde se usa-lá, a sintaxe básica, como a linguagem atua no ambiente web, a difernça entre Java e JavaScript e por fim será apresentado em vídeo uma explicação mais detalhada dos tópicos anteriormente citados.
   ![Wireframe JavaScript](img/guia_javasript.png)
 
+### Linguagens: Python
+
+Detrno do botão de "Linguagens" pela opção "Python" o usuário terá esta página com inforamções sobre a lingugem e seu mercado de trabalho e opções de curso para aprender a programar em python.
+
+![Wireframe Python](img/python-wireframe.png)
+
 ### Linguagens: Exercícios
 
 Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionado para um sub menu onde poderá escolher a opção exercícios. Na página ele encontrará os exercícios separados por linguagens e com links externos que o permitirão colocar em ação aquilo que foi aprendido. Os links levarão o usuário a exercícios para inicantes e também à plataformas que permitirão ao ulitizador salvar seu progresso e ver seu desenvolvimento na linguagem de sua preferência.
