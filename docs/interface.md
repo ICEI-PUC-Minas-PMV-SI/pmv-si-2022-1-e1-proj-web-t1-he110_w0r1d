@@ -16,7 +16,7 @@ O projeto está dividido em 5 menus principais: Primeiros Passos, Linguagens, Bl
 
 A home page é composta por um texto que explica o objetivo do site e oque o usuário irá encontrar pela frente. Em seguida, é apresentado botoes, posicionados em sentido de " escada no sentindo descendo " para que o usuario entenda por onde começar. Ao clicar, o usuario terá acesso ao conteudo de forma sequencial ou individual se clicar no menu e escolher a página que deseja entrar. Logo abaixo o usuário encontra uma apresentaçao sobre o informaçoes gerais do projeto e equipe. Por fim, um box de notícias relevantes que estão atreladas ao mundo da programaçao.
 
-[homepade-wireframe](img/homepage.png)
+[Wireframe HomePage](img/homepage.png)
 
 ### Primeiros Passos: Guia de IDEs
 
