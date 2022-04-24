@@ -20,7 +20,7 @@ A home page é composta por um texto que explica o objetivo do site e oque o usu
 
 ### Primeiros Passos: Guia de IDEs
 
-Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar entre 3 opções sendo "Guia de IDEs" um deles, que apresentará para o usuário a página abaixo com os principais editores de código disponíveis, tal como uma menção bônus do WebStorm (IDE dedicado para Frontend feito pela JetBrains - o qual possui uma licença anual para estudantes). No final da página o usuário encontra um vídeo externo comparando os editores mencionados.
+Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar entre 3 opções sendo "Guia de IDEs" um deles, que apresentará para o usuário a página abaixo com os principais editores de código disponíveis, tal como uma menção bônus do WebStorm (IDE dedicado para Frontend feito pela JetBrains. No final da página contém um vídeo comparando os editores mencionados.
 
 ![Wireframe Editores de Código](img/guia_sobre_editores_de_codigo-wireframe.png)
 
