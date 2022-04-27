@@ -4,3 +4,10 @@
 #logo {
     height: 1.6rem;
 }
+footer {
+	background-color: dimgrey;  /* Tem que colocar a cor certa e olhar se as dimensões estão ok*/ 
+	text-align: center;
+	height: 80px;
+	margin-top: 30px;
+	line-height: 80px;
+}
