@@ -7,25 +7,28 @@ Paleta:
 -- semi-dark-bg  : #212B2B
 
 */
-/*Fundo do Corpo*/
+/* ----------- Corpo ----------- */
 body {
   background-color: #141414;
   font-family: sans-serif;
 }
 
-/*Definição de cor primária*/
+/*Definição de cor botão BS*/
 .btn-outline-dark:hover, .btn-outline-dark:active, .btn-outline-dark:visited {
   background-color: #212B2B;
   color: #73C990;
   border-color: #212B2B;
 }
 
-/*Barra de Navegação*/
+/* ----------- Barra de Navegação ----------- */
 .navbar {
   color: #73C990;
-  margin: auto 8%;
 }
-
+@media screen and (min-width: 1428px){
+  .navbar{
+    margin:0 10%;
+  }
+}
 /*Menu de queda e itens*/
 .dropdown-menu {
   background-color: #141414;
@@ -42,17 +45,30 @@ body {
 
 /*Logo*/
 #logo, #marca-nav {
-  height: 2.6rem;
+  height: 2.5rem;
+}
+@media screen and (max-width: 376px){
+  #logo{
+    display: none;
+  }
 }
 
 /*Botão pesquisa*/
 .btn-search {
   border-color: #73C990;
-  color: inherit;
-  padding: auto;
+  color: #73C990;
 }
 
-/*Rodapé*/
+/*Botão Expandir Menu Responsivo*/
+.custom-toggler.navbar-toggler {
+  border-color: rgba(115, 201, 144, 0.8);
+}
+.custom-toggler .navbar-toggler-icon{
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(115, 201, 144, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* ----------- Rodapé ----------- */
 .github {
   height: 2rem;
   object-fit: contain;
@@ -73,4 +89,10 @@ footer {
 footer div {
   align-items: center;
   text-align: right;
+}
+
+@media screen and (max-width: 600px){
+  footer div, .footer-logo {
+    text-align: center;
+  }
 }

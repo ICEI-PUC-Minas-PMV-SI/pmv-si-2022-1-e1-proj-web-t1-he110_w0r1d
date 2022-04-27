@@ -52,10 +52,9 @@ Ao clicar diretamente no botão " CSS " ou se seguir a sequencia do conteúdo de
 
 ### Linguagens: JavaScript
 
-%DESCRIÇÃO%
-
 Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionado para um sub menu onde poderá escolher a opção JavaScript. Na página ele encontrará uma breve introdução sobre a linguagem, onde se usa-lá, a sintaxe básica, como a linguagem atua no ambiente web, a difernça entre Java e JavaScript e por fim será apresentado em vídeo uma explicação mais detalhada dos tópicos anteriormente citados.
-  ![Wireframe JavaScript](img/guia_javasript.png)
+
+![Wireframe JavaScript](img/guia_javasript.png)
 
 ### Linguagens: Python
 
