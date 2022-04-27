@@ -1,0 +1,76 @@
+/*
+PROJETO WEB HE110 W0R1D_
+
+Paleta:
+-- verde(accent) : #73C990
+-- fundo-dark    : #141414
+-- semi-dark-bg  : #212B2B
+
+*/
+/*Fundo do Corpo*/
+body {
+  background-color: #141414;
+  font-family: sans-serif;
+}
+
+/*Definição de cor primária*/
+.btn-outline-dark:hover, .btn-outline-dark:active, .btn-outline-dark:visited {
+  background-color: #212B2B;
+  color: #73C990;
+  border-color: #212B2B;
+}
+
+/*Barra de Navegação*/
+.navbar {
+  color: #73C990;
+  margin: auto 8%;
+}
+
+/*Menu de queda e itens*/
+.dropdown-menu {
+  background-color: #141414;
+}
+
+.dropdown-item {
+  color: #73C990;
+}
+
+.dropdown-item:hover {
+  background-color: #212B2B;
+  color: #fff;
+}
+
+/*Logo*/
+#logo, #marca-nav {
+  height: 2.6rem;
+}
+
+/*Botão pesquisa*/
+.btn-search {
+  border-color: #73C990;
+  color: inherit;
+  padding: auto;
+}
+
+/*Rodapé*/
+.github {
+  height: 2rem;
+  object-fit: contain;
+}
+
+.footer-logo {
+  text-align: left;
+}
+
+#botao-git {
+  margin-bottom: 1em;
+}
+
+footer {
+  color: #73C990;
+}
+
+footer div {
+  align-items: center;
+  text-align: right;
+}
