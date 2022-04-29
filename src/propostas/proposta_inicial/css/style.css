@@ -34,12 +34,15 @@ body {
   background-color: #141414;
 }
 
-.dropdown-item {
+.dropdown-item, .nav-link {
   color: #73C990;
 }
 
 .dropdown-item:hover {
   background-color: #212B2B;
+  color: #fff;
+}
+.nav-link:hover {
   color: #fff;
 }
 
