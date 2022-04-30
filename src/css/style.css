@@ -7,12 +7,6 @@ Paleta:
 -- semi-dark-bg  : #212B2B
 
 */
-/* ----------- corpo ----------- */
-body {
-  background-color: #141414;
-  font-family: sans-serif;
-}
-
 /*definição de cor botão do Bootstrap*/
 .btn-outline-dark:hover,
 .btn-outline-dark:active,
@@ -64,6 +58,43 @@ body {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(115, 201, 144, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* ----------- corpo ----------- */
+body {
+  background-color: #141414;
+  font-family: sans-serif;
+}
+/*----------- conteudo -----------*/
+
+/*titulo da pagina*/
+.titulo-page {
+  color: #73C990;
+  font-weight: bold;
+  text-align: center;
+  margin: 3.6rem;
+  font-size: 3.6rem;
+}
+
+/*titulo da seção*/
+.titulo-secao{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 34px;
+}
+
+/*titulo da postagem*/
+.titulo-post {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem;
+}
+
+/*corpo da postagem*/
+.postagem {
+  color: #fff;
+}
+
 /* ----------- rodapé ----------- */
 
 /*botão github footer*/
@@ -71,16 +102,20 @@ body {
   height: 2rem;
   object-fit: contain;
 }
+
 /*logo projeto*/
 .footer-logo {
   text-align: left;
 }
+
 /*margem botão github*/
 #botao-git {
   margin-bottom: 1em;
 }
-/**/
-footer div {
+
+/*footer direita e cor*/
+footer div,
+#copyright {
   align-items: center;
   text-align: right;
   color: #73C990;
@@ -88,7 +123,7 @@ footer div {
 
 /*ajuste de responsividade*/
 @media screen and (max-width: 600px){
-  footer div, .footer-logo {
+  footer div, .footer-logo, #copyright {
     text-align: center;
   }
 }
