@@ -60,13 +60,13 @@ Paleta:
 
 /* ----------- corpo ----------- */
 body {
-  background-color: #141414;
+  background-color:  #fff;
   font-family: sans-serif;
 }
 /*----------- conteudo -----------*/
 
 /*titulo da pagina*/
-.titulo-page {
+h1 {
   color: #73C990;
   font-weight: bold;
   text-align: center;
@@ -75,24 +75,20 @@ body {
 }
 
 /*titulo da seção*/
-.titulo-secao{
+h2 {
   color: #fff;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 34px;
+  font-size: 2.125rem;
 }
 
 /*titulo da postagem*/
-.titulo-post {
+h3 {
   color: #fff;
   font-weight: bold;
   text-align: center;
   margin: 1rem;
-}
-
-/*corpo da postagem*/
-.postagem {
-  color: #fff;
 }
 
 /* ----------- rodapé ----------- */
@@ -110,7 +106,7 @@ body {
 
 /*margem botão github*/
 #botao-git {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 /*footer direita e cor*/
