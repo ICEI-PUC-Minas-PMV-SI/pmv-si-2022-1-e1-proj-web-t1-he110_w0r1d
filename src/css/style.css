@@ -126,7 +126,7 @@ iframe{
   width: 100% !important;
   height: 315px !important;
 }
-p {
+#conteudo p {
   text-align: justify;
 }
 /* ----------- rodapé ----------- */
