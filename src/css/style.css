@@ -123,6 +123,12 @@ h3 {
 .justificar{
   text-align: justify;
 }
+.italic{
+  font-style: italic;
+}
+.thin{
+  font-weight: lighter;
+}
 /*tamanho do vídeo de seção*/
 iframe{
   width: 100% !important;
