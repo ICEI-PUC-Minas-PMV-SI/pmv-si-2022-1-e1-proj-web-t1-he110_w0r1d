@@ -22,6 +22,10 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <!-- CSS Página -->
+  <link rel="stylesheet"
+        href="css/guia-ide.css">
+
   <!-- CSS Master -->
   <link rel="stylesheet"
         href="css/style.css">
@@ -69,7 +73,7 @@
               Primeiros Passos</a>
             <div class="dropdown-menu">
               <a class="dropdown-item"
-                 href="guia-de-ides.html">Editores de Código</a>
+                 href="#">Editores de Código</a>
               <a class="dropdown-item"
                  href="guia-do-git.html">Guia do GIT</a>
               <a class="dropdown-item"
@@ -160,7 +164,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md col-sm">
-            <h1>GIT, BASH & CHAVE SSH</h1>
+            <h1>EDITORES DE CÓDIGO</h1>
           </div>
         </div>
       </div>
@@ -171,7 +175,46 @@
         <!-- Título da Seção -->
         <div class="row">
           <div class="col-md col-sm">
-            <h2>O que é e como instalar o git?</h2>
+            <h2>Principais Editores de Código</h2>
+          </div>
+        </div>
+
+        <!-- Corpo da Seção -->
+        <div class="row mb-2">
+
+          <!-- Coluna de Conteúdo -->
+          <div class="col-md col-sm">
+            <h3>VS Code <span class="accent thin italic">[Recomendado]</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cumque doloribus eligendi, fuga ipsam natus rerum tempora tempore voluptatum. Eaque earum illo, iste itaque, iure laborum, molestias numquam optio quod sunt suscipit temporibus vitae voluptas. Adipisci alias asperiores nobis sint.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus eos, fugit ipsa molestias quia quod totam veniam veritatis vero. Amet asperiores assumenda, cumque dolorum eaque eligendi, excepturi iusto magnam minus nisi nulla, officiis quas quod reprehenderit repudiandae sequi voluptatibus.</p>
+            <button onclick="location.href='https://code.visualstudio.com/'"
+                    class="btn-link btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">SITE OFICIAL</button>
+            <button onclick="location.href='https://code.visualstudio.com/Download'"
+                    class="btn-link mr-2 btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">DOWNLOAD</button>
+          </div>
+
+          <!-- Coluna de Conteúdo -->
+          <div class="col-md col-sm">
+            <h3>Atom</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo minima neque numquam tempora veniam?
+              Corporis dicta distinctio earum esse facere iusto molestiae nihil numquam, odio placeat praesentium
+              uuntur, dicta dolor dolorum earum,
+              incidunt ipsam labore pariatur porro quos reiciendis sit soluta totam, voluptatem?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eum harum hic inventore nisi nobis
+              odit porro reiciendis, tenetur vitae. Eligendi nobis similique veritatis voluptas. Assumenda eligendi
+              explicabo magnam nesciunt.</p>
+            <button onclick="location.href='https://atom.io/'"
+                    class="btn-link btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">SITE OFICIAL</button>
+            <button onclick="location.href='https://github.com/atom/atom/releases/tag/v1.60.0'"
+                    class="btn-link mr-2 btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">DOWNLOAD</button>
           </div>
         </div>
 
@@ -180,31 +223,54 @@
 
           <!-- Coluna de Conteúdo -->
           <div class="col-md col-sm">
-            <h3>O que é e para que serve o git?</h3>
-            <p>Git é um sistema de controle de versão de arquivos. Através dele podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas.</p>
-            <p>Se não houver um sistema de versão, imagine o caos entre duas pessoas abrindo o mesmo arquivo ao mesmo tempo. Uma das aplicações do git é justamente essa, permitir que um arquivo possa ser editado ao mesmo tempo por pessoas diferentes. Por mais complexo que isso seja, ele tenta manter tudo em ordem para evitar problemas para nós desenvolvedores.</p>
+            <h3>Sublime Text</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolorum ea est eveniet
+              exercitationem facilis, iste, laborum odit perferendis placeat quam quasi sit. Aut distinctio ipsum nobis
+              obcaecati voluptas? Autem consequatur cupiditate dolores itaque modi non omnis sequi vel.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi enim illum in labore laudantium
+              molestias nihil ullam veniam voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam architecto autem corporis fugit
+              itaque laudantium libero nam, quos vel!</p>
+            <button onclick="location.href='https://www.sublimetext.com/'"
+                    class="btn-link btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">SITE OFICIAL</button>
+            <button onclick="location.href='https://www.sublimetext.com/download'"
+                    class="btn-link mr-2 btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">DOWNLOAD</button>
           </div>
 
-          <!-- Coluna de Vídeo -->
-          <div class="col-md col-sm"><h3>Como instalar o git?</h3>
-            <iframe width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/ONztz-yh4jY?controls=0"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+          <!-- Coluna de Conteúdo -->
+          <div class="col-md col-sm">
+            <h3>WebStorm <span class="italic accent thin">[JetBrains IDE]</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deleniti excepturi laboriosam neque
+              reiciendis repudiandae saepe temporibus. Aut, consequuntur, voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, consequuntur, dignissimos doloremque
+              dolores doloribus eius eos eum fuga fugiat hic in labore placeat quaerat, ratione sequi tempore totam
+              velit voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam dolor dolore dolorem eaque
+              earum illo officiis temporibus ut?</p>
+            <button onclick="location.href='https://www.jetbrains.com/webstorm/'"
+                    class="btn-link btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">SITE OFICIAL</button>
+            <button onclick="location.href='https://www.jetbrains.com/webstorm/download/'"
+                    class="btn-link mr-2 btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">DOWNLOAD</button>
           </div>
+
         </div>
       </div>
 
-      <!--Seção -->
+      <!-- Seção -->
       <div class="container mt">
 
         <!-- Título da Seção -->
         <div class="row">
           <div class="col-md col-sm">
-            <h2>Chaves SSH</h2>
+            <h2>Comparativo e IDEs</h2>
           </div>
         </div>
 
@@ -212,95 +278,50 @@
         <div class="row">
 
           <!-- Coluna de Conteúdo -->
-          <div class="col-md sm">
-
-            <!-- Divisão da Coluna -->
-            <div class="row">
-
-              <!-- Coluna de Conteúdo -->
-              <div class="col-md col-sm">
-                <h3>Como gerar uma chave SSH:</h3>
-                <p>Para crair suas chaves SSH é necessário alguns simples comandos no terminal do git bash que você pode encontrar no guia do próprio github abaixo. Temos o link para o guia do github explicando tudo para você:</p>
-
-                <!-- Botão para Guia do GITHUB-->
-                <button onclick="location.href='https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent'"
-                        class="btn-link btn btn-outline-dark"
-                        type="button"
-                        name="botao externo">LINK GITHUB</button>
-              </div>
-            </div>
-
-            <!-- Divisão da Coluna -->
-            <div class="row">
-
-              <!-- Coluna de Conteúdo -->
-              <div class="col-md col-sm">
-                <h3>Como vincular sua chave SSH:</h3>
-                <p>Depois de ter criado sua chave, basta vincular a sua conta do github para que começa a usar pelo terminal. Basta seguir as imagens no guia do github pelo link abaixo.</p>
-
-                <!-- Botão para Guia do GITHUB-->
-                <button onclick="location.href='https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account'"
-                        class="btn-link btn btn-outline-dark"
-                        type="button"
-                        name="botao externo">LINK GITHUB</button>
-                </div>
-            </div>
-          </div>
-
-          <!-- Coluna de Vídeo -->
-          <div class="col-md col-sm">
-            <h3>Tutorial em Vídeo</h3>
-            <iframe width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/7YVQLZp1jb0?controls=0"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-          </div>
-        </div>
-
-      </div>
-
-      <!--Seção -->
-      <div class="container mt">
-
-        <!-- Título da Seção -->
-        <div class="row">
-          <div class="col-md col-sm">
-            <h2>Terminal do git bash</h2>
-          </div>
-        </div>
-
-        <!-- Corpo da Seção -->
-        <div class="row">
-
-          <!-- Coluna de Vídeo -->
-          <div class="col-md col-sm">
-            <h3>Vídeo completo sobre o bash</h3>
-            <iframe width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/E28J23gCBIs?controls=0"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-          </div>
-
-          <!-- Coluna de Conteúdo -->
-          <div class="col-md sm">
-            <h3>Principais comandos no git bash</h3>
-            <p>Esses comandos serão brevemente mencionados mas para aprofundar no assunto, recomendo uma lida no site do <a href="https://www.codigofonte.com.br/artigos/top-25-comandos-do-git">Código fonte</a>. O símbolo $ indica que é um comando de terminal.</p>
+          <div class="col-md-8 mr-auto col-sm">
+            <h3>IDE vs Editores de Código:</h3>
             <ul>
-              <li><span class="negrito accent">$ git init ou $ git clone:</span><br>» inicia ou faz download de um repositório.</li>
-              <li><span class="negrito accent">$ git fetch & $ git pull:</span><br>» atualiza as  novas modificações feitas no repositório.</li>
-              <li><span class="negrito accent">$ git add [nome_do_arquivo]:</span><br>» prepara um arquivo para o commit.</li>
-              <li><span class="negrito accent">$ git commit -m "titulo_do_commit":</span><br>» prepara o commit para ser enviado.</li>
-              <li><span class="negrito accent">$ git push:</span><br>» faz o envio dos seus commits.</li>
+              <li><span class="negrito accent">IDE:</span>
+                <p>IDE é a sigla para Integrated Development Environment ou em português Ambiente de Desenvolvimento Integrado, é um ‘software’ que reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo.</p>
+              </li>
+              <li><span class="negrito accent">Editores de Código</span>
+                <p>Os editores de código, tais como sublime, atom ou vscode, são bem leves e possuem funcionalidades essenciais para o desenvolvimento, mas não se engane, utlizados de maneira correta, podem ser tão poderosos quanto um IDE apesar de sua simplicidade.</p>
+              </li>
             </ul>
           </div>
+
+          <!-- Coluna de Conteúdo -->
+          <div class="col-md-4 ml-auto col-sm">
+            <h3>Qual o melhor?</h3>
+            <p>Em resumo, vai da preferência do desenvolvedor, mas recomendamos a leitura deste artigo feito por Antônio Evaldo na plataforma da Alura explicando suas diferenças, clicando no botão abaixo:</p>
+
+            <!-- Botão para Guia do GITHUB-->
+            <button onclick="location.href='https://www.alura.com.br/artigos/sublime-atom-vscode-qual-melhor-editor-de-codigo'"
+                    class="btn-link btn btn-outline-dark"
+                    type="button"
+                    name="botao externo">ARTIGO ALURA</button>
+          </div>
         </div>
+
+        <!-- Coluna de Conteúdo -->
+        <div class="row">
+
+          <!-- Coluna de Conteúdo -->
+          <div class="col-md col-sm">
+            <h3>Comparativo entre os principais editores de código <span class="accent italic thin">[Inglês]</span></h3>
+            <iframe class="video-full mt-2"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/kCZQPL8u_YI?controls=0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </div>
+        </div>
+
       </div>
+
     </div>
   </main>
 

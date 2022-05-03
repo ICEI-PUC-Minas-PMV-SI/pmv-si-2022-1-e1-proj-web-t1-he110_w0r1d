@@ -85,6 +85,7 @@ h2 {
   background-color: #212B2B;
   padding: 0.6rem;
   border-radius: 0.4rem;
+  border: #73C990 1px solid;
 }
 
 /*titulo da postagem*/
@@ -94,15 +95,13 @@ h3 {
   margin: 1rem;
   font-weight: bold;
 }
-/* ----------- conteúdo ----------- */
-
 /*margem bottom*/
 .mb {
   margin-bottom: 2rem;
 }
 /*margem top*/
 .mt {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 /*botoa link externo*/
 .btn-link{
@@ -121,13 +120,13 @@ h3 {
 .accent, a {
   color: #73C990;
 }
+.justificar{
+  text-align: justify;
+}
 /*tamanho do vídeo de seção*/
 iframe{
   width: 100% !important;
   height: 315px !important;
-}
-#conteudo p {
-  text-align: justify;
 }
 /* ----------- rodapé ----------- */
 
