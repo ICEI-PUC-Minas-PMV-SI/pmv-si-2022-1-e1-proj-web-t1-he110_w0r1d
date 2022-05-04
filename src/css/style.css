@@ -25,14 +25,17 @@ Paleta:
 .dropdown-menu {
   background-color: #141414;
 }
+
 .dropdown-item,
 .nav-link {
   color: #73C990;
 }
+
 .dropdown-item:hover {
   background-color: #212B2B;
   color: #fff;
 }
+
 .nav-link:hover {
   color: #fff;
 }
@@ -53,9 +56,9 @@ Paleta:
 .navbar-toggler {
   border-color: rgba(115, 201, 144, 0.8);
 }
+
 .navbar-toggler-icon {
-  background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(115, 201, 144, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(115, 201, 144, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* ----------- corpo ----------- */
@@ -64,7 +67,24 @@ body {
   font-family: sans-serif;
   color: #fff;
 }
+
 /*----------- conteudo -----------*/
+
+/*fluxograma*/
+.fluxograma {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.fluxograma-wrapper {
+  align-items: left;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 1rem;
+}
 
 /*titulo da pagina*/
 h1 {
@@ -95,45 +115,58 @@ h3 {
   margin: 1rem;
   font-weight: bold;
 }
+
 /*margem bottom*/
 .mb {
   margin-bottom: 2rem;
 }
+
 /*margem top*/
 .mt {
   margin-top: 3rem;
 }
+
 /*botoa link externo*/
-.btn-link{
+.btn-link {
   border-color: #73C990;
-  float:right;
+  float: right;
   color: #73C990;
   font-weight: bold;
 }
-.btn-link:hover, a:hover{
+
+.btn-link:hover,
+a:hover {
   text-decoration: none;
 }
+
 /*classes de decoração*/
-.negrito{
+.negrito {
   font-weight: bold;
 }
-.accent, a {
+
+.accent,
+a {
   color: #73C990;
 }
-.justificar{
+
+.justificar {
   text-align: justify;
 }
-.italic{
+
+.italic {
   font-style: italic;
 }
-.thin{
+
+.thin {
   font-weight: lighter;
 }
+
 /*tamanho do vídeo de seção*/
-iframe{
+iframe {
   width: 100% !important;
   height: 315px !important;
 }
+
 /* ----------- rodapé ----------- */
 
 /*botão github footer*/
@@ -161,18 +194,23 @@ footer div,
 }
 
 /*ajuste de responsividade*/
-@media screen and (max-width: 600px){
-  footer div, .footer-logo, #copyright {
+@media screen and (max-width: 600px) {
+
+  footer div,
+  .footer-logo,
+  #copyright {
     text-align: center;
   }
 }
-@media screen and (max-width: 376px){
-  #logo{
+
+@media screen and (max-width: 376px) {
+  #logo {
     display: none;
   }
 }
-@media screen and (min-width: 1428px){
-  .navbar{
-    margin:0 10%;
+
+@media screen and (min-width: 1428px) {
+  .navbar {
+    margin: 0 10%;
   }
 }
