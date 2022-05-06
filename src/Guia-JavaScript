@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- Meta tags -->
+  <title>HE110 W0R1D_</title>
+
+  <link rel="shortcut icon" type="imagex/png" href="img/favicon.ico">
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="keywords"
+    content="programação, cursos ti, html, css, javascript, python, grupos telegram ti, git, ide, figma, axure">
+
+  <!-- CSS Fontawesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- CSS Master -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Corpo da Página -->
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg">
+
+      <!-- Marca do Site -->
+      <a href="#" class="navbar-brand marca">
+
+        <img id="logo" src="img/icon/icone.png" alt="logo">
+
+        <img id="marca-nav" src="img/icon/logo-name.png" alt="HE110 W0R1D_">
+      </a>
+
+      <!-- Botão Expandir Navbar -->
+      <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+
+          <!-- Menu: Primeiros Passos -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Primeiros Passos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="guia-de-ides.html">Editores de Código</a>
+              <a class="dropdown-item" href="guia-do-git.html">Guia do GIT</a>
+              <a class="dropdown-item" href="fundamentos.html">Fundamentos Básicos</a>
+            </div>
+          </li>
+
+          <!-- Menu: Linguagens -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Linguagens</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="guia-de-html.html">HTML</a>
+              <a class="dropdown-item" href="#">CSS</a>
+              <a class="dropdown-item" href="#">JavaScript</a>
+              <a class="dropdown-item" href="#">Python</a>
+            </div>
+          </li>
+
+          <!-- Menu: Blog -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Blog</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Notícias</a>
+              <a class="dropdown-item" href="#">Podcasts</a>
+              <a class="dropdown-item" href="ferramentas.html">Ferramentas</a>
+              <a class="dropdown-item" href="dicas.html">Dicas</a>
+            </div>
+          </li>
+
+          <!-- Menu: Eventos -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Eventos</a>
+          </li>
+
+          <!-- Menu: Contato -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Contato</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Quem somos</a>
+              <a class="dropdown-item" href="#">Ajuda</a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Menu: Caixa de Pesquisa -->
+        <div id="pesquisa">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Busque aqui" aria-label="Search">
+            <button class="btn btn-search btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Conteúdo -->
+  <main>
+
+    <!-- Conteúdo Principal -->
+    <div id="conteudo">
+
+      <!-- Título da Página -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md col-sm">
+            <h1>Javascript</h1>
+          </div>
+        </div>
+      </div>
+
+      <!--Seção -->
+      <div class="container mt">
+
+        <!-- Título da Seção -->
+        <div class="row">
+          <div class="col-md col-sm">
+            <h2>Conheça o JavaScript</h2>
+          </div>
+        </div>
+
+        <!-- Corpo da Seção -->
+        <div class="row">
+
+          <!-- Coluna de Conteúdo -->
+          <div class="col-md sm">
+
+            <!-- Divisão da Coluna -->
+            <div class="row">
+
+              <!-- Coluna de Conteúdo -->
+              <div class="col-md col-sm">
+                <h3>O que é JavaScript?</h3>
+                <p>
+                    O JavaScript é uma linguagem de programação que surgiu na década de 90 criada por Brendan Eich a serviço da Netscape.
+                    A linguagem é voltada para desenvolvimento Web e criada para funcionar principalmente nos navegadores. Usada juntamente com o HTML e CSS,
+                    ela permite a criação de páginas interativas com elementos dinâmicos.
+                    O JavaScript permite que os elementos sejam controlados em tempo real, sem que haja necessidade de recarregar a página. Sendo assim,
+                    é possiível atualizar o conteúdo de uma página sem precisar recarregás-la.
+                </p>
+              </div>
+              <h3>Onde usar o JavaScript?</h3>
+              <ul>
+                  <span class="negrito accent">Desenvolvimento web:</span>
+                  <br>
+                 
+                  <li>
+
+
+                      Sistemas de autocomplete, algo parecido com quando você digita na busca do Google e ele completa com as
+                      palavras possíveis ou já salvas pelo seu navegador
+                  </li>
+                  <li>
+
+                      Sistemas ou aplicações web que mostram informações que mudam constantemente, conforme eventos internos
+                      ou externos ao site/aplicação.
+                  </li>
+                  <li>
+
+                      Interações com elementos HTML e CSS, para que estes mudem dinamicamente.
+                  </li>
+                  <li>Interfaces de programação de aplicativos no navegador (APIs) - APIs integradas em navegadores da Web, fornecendo funcionalidade como criar dinamicamente HTML e definir estilos CSS, coletar e manipular um fluxo de vídeo da 
+                  webcam do usuário ou gerando gráficos 3D e amostras de áudio.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Coluna de Vídeo -->
+          <div class="col-md col-sm">
+              <h3>Sintaxe básica do JavaScript</h3>
+
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/WcIIUmDch94"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/kqE3sp_7peQ" 
+                      title="YouTube video player" frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!--Seção -->
+      <div class="container mt">
+
+        
+
+        <!-- Corpo da Seção -->
+        <div class="row">
+
+          <!-- Coluna de Vídeo -->
+          <div class="col-md col-sm">
+
+            <h3>Como o JavaScript atua na sua página Web?</h3>
+            <p>
+                JavaScript, originalmente, é uma linguagem de programação client-side, ou seja, é executada do lado do usuário, mais especificamente pelo navegador utilizado por este usuário.
+                Em outras palavras, isso significa que todas as suas ações são processadas na máquina de quem as utiliza, sem a necessidade de enviá-las a nenhum outro ambiente.
+                Como nada é enviado a nenhum servidor externo para processamento, as respostas são imediatas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Coluna de Conteúdo -->
+        <div class="col-md sm">
+            <h3>Java é apelido de JavaScript?</h3>
+            <p>
+                A linguagem de programação JavaScript, desenvolvida pela Netscape, Inc., não faz parte da plataforma Java.
+
+                O JavaScript não cria applets ou aplicações independentes. Na sua forma mais comum, o JavaScript
+                fica embutido nos documentos HTML e pode fornecer níveis de interatividade para páginas Web que não
+                são acessíveis com um HTML simples.Diferenças-chave entre o Java e o JavaScript:
+            </p>
+            <ul>
+                <li>Java é uma linguagem de programação OOP, ao passo que Java Script é uma linguagem de scripts OOP.</li>
+                <li>
+                    Java cria aplicações executadas em uma máquina virtual ou em um browser, ao passo que o código
+                    JavaScript é executado apenas em um browser.
+                </li>
+                <li>O código Java precisa ser compilado, ao passo que os códigos JavaScript estão totalmente em texto.</li>
+
+            </ul>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-ii4YmI5SFQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md footer-logo col-sm">
+          <span>
+            <img id="logo-footer" src="img/icon/logo.png" alt="logo-footer">
+          </span>
+        </div>
+        <div class="col-md col-sm">
+          <div id="botao-git">
+            <button
+              onclick="location.href='https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t1-he110_w0r1d'"
+              class="btn btn-search btn-outline-dark my-2 my-sm-0" type="button" name="github">
+              <img class="github" src="img/github-logomark.png" alt="icone-github">
+              <img class="github" src="img/GitHub_Logo.png" alt="nome-github">
+            </button>
+          </div>
+          <div>
+            <p>&copy; 2022 Copyright: HE110 W0R1D_</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Scripts Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
