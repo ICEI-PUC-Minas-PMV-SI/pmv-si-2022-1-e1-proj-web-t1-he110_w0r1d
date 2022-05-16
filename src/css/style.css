@@ -234,3 +234,12 @@ position: absolute;
 width: 350px;
 height: 65px;
 }
+
+.box-quem-somos {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  border: #73C990 1px solid;
+}
