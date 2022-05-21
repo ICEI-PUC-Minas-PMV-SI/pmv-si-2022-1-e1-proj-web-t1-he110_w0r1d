@@ -1,60 +1,3 @@
-var listaEventos = [
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1643311341000,
-    categoria: "Palestra",
-    descricao: "evento 1",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1644607341000,
-    categoria: "Palestra",
-    descricao: "evento 2",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1644952941000,
-    categoria: "Evento Online",
-    descricao: "evento 3",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1646508141000,
-    categoria: "Palestra",
-    descricao: "evento 4",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1648063341000,
-    categoria: "Evento Online",
-    descricao: "evento 5",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1651087341000,
-    categoria: "Evento Online",
-    descricao: "evento 6",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1654888941000,
-    categoria: "Palestra",
-    descricao: "evento 7",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1655839341000,
-    categoria: "Evento Online",
-    descricao: "evento 8",
-  },
-  {
-    url: "https://source.unsplash.com/random/350x200/?img=1",
-    data: 1656876141000,
-    categoria: "Palestra",
-    descricao: "evento 9",
-  },
-];
-
 // organizando as caixinhas...
 
 // declaracao de variavel que ira conter o bloco de html dos eventos
@@ -82,18 +25,20 @@ for (let contador = 0; contador < listaEventos.length; contador++) {
 // como url, data, categoria e descricao
 function crieHtmlDinamicoParaEvento(evento) {
   return `
-<div class="col-4 bloco">
+<a href="./eventos-detalhes.html?id=${evento.id}" class="col-4 bloco">
     <div class="row pt-2">
-        <img src="${evento.url}" alt="">
+        <img src="${evento.imagem}" alt="">
     </div>
     <div class="row pt-2 pb-2 bloco-info">
         <div class="col">${new Date(evento.data).toLocaleDateString()}</div>
         <div class="col text-right">${evento.categoria}</div>
     </div>
     <div class="row pb-2">
-        <div class="col">${evento.descricao}</div>
+        <div class="col pl-0">
+        <span class="bloco-titulo">${evento.titulo}</span>
+        </div>
     </div>
-</div>
+</a>
 `;
 }
 
