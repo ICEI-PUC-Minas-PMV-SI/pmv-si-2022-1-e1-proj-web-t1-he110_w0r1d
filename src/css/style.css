@@ -170,6 +170,10 @@ iframe {
   width: 100% !important;
   height: 315px !important;
 }
+/*Prática*/
+.table{
+    text-align:center;
+}
 /*Podcasts*/
 .card {
     height:33rem;
