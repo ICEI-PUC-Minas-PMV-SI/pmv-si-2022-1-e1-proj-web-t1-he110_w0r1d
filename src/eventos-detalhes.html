@@ -119,37 +119,31 @@
     <main>
       <!-- Conteúdo Principal -->
 
-      <h1>EVENTOS</h1>
+      <h1 id="titulo">Nome do Evento</h1>
 
-      <div class="container">
-        <div class="row pl--3"></div>
-        <div class="row pb-3">
-          <div class="col-2 pl-0">
-            <select
-              class="form-select"
-              id="filtro-categoria"
-              aria-label="Default select example"
-            >
-              <option value="Todos" selected>Selecione a categoria</option>
-              <option value="Evento Online">Eventos online</option>
-              <option value="Palestra">Palestras</option>
-            </select>
-          </div>
-
-          <div class="col-2 pl-0">
-            <select
-              class="form-select"
-              id="ordenacao"
-              aria-label="Default select example"
-            >
-              <option selected>Ordenar</option>
-              <option value="Recentes">Mais recentes</option>
-              <option value="Antigos">Mais antigos</option>
-            </select>
-          </div>
+      <div class="container" id="eventoescolhido">
+        <div class="row" id="imagem">
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/EqzUcMzfV1w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
         </div>
-
-        <div class="row" id="grade-de-eventos"></div>
+        <div class="row pt-3">
+          <h3 class="subtitulo">Descricao</h3>
+          <p id="texto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae magnam, corrupti debitis accusantium ullam nisi quidem
+            pariatur temporibus omnis, provident, eius minima? Vel nisi soluta
+            magnam officia quisquam unde sapiente adipisci, in, quasi, eos
+            molestias nihil? Hic dicta quisquam magni? In id velit ducimus nulla
+            quos eos illo provident quaerat.
+          </p>
+        </div>
       </div>
     </main>
 
@@ -192,7 +186,7 @@
 
     <!--JS Scripts Eventos-->
     <script src="js/eventos.js"></script>
-    <script src="js/eventos-lista.js"></script>
+    <script src="js/eventos-detalhes.js"></script>
 
     <!-- JS Scripts Bootstrap -->
     <script

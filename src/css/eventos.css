@@ -1,0 +1,40 @@
+.bloco-info {
+  margin-right: 0.3rem;
+  font-weight: bold;
+}
+
+.bloco-info > div {
+  padding-left: 0;
+}
+
+.bloco-titulo {
+  width: 80%;
+  display: block;
+  padding: 1.2rem 0;
+}
+
+#eventoescolhido {
+  align-content: center;
+}
+#texto {
+  margin: 0%;
+}
+.subtitulo {
+  margin: 1rem 0;
+  width: 100%;
+  text-align: left;
+}
+#video {
+  height: 35rem !important;
+}
+.bloco {
+  color: #73c990;
+}
+.bloco:hover {
+  color: white;
+}
+
+.bloco > .row > img {
+  width: 92%;
+  border-radius: 15px;
+}
