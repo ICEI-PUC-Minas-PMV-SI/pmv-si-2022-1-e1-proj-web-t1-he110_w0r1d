@@ -140,45 +140,22 @@
         </div>
         <!-- Corpo da Seção -->
         <div class="row">
-          <!-- Colunas de Conteúdo -->
-            <div class="ct-news col-sm-6 col-md-4">
-                <!-- Seção -->
-                <div id="after_submit"></div>
-                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                <div class="row">
-                    <div class="ct-news col-sm-6 col-md-4">
-                        <div class="col-md col-sm">
-                            <label class="required" for="name">Nome:</label><br />
-                        </div>
-                        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                        <span id="name_validation" class="error_message"></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="ct-news col-sm-6 col-md-4">
-                        <div class="col-md col-sm">
-                            <label class="required" for="email">Email:</label><br />
-                        </div>
-                        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                        <span id="email_validation" class="error_message"></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="ct-news col-sm-6 col-md-4">
-                        <div class="col-md col-sm">
-                            <label class="required" for="message">Mensagem:</label><br />
-                        </div>
-                        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-                        <span id="message_validation" class="error_message"></span>
-                    </div>
-                </div>
-                    
-                    <input id="submit_button" type="submit" value="Enviar" />
-                </form>
-            </div>
+          <div class="col-md col-sm">
+            <form class="formulario" action="#">
+              <label for="">Nome:</label>
+              <input class="nome" type="text" name="nome" required>
+              <label>Email:</label>
+              <input class="email" type="text" name="email" placeholder="nome@exemplo.br" required>
+              <br>
+              <label>Mensagem:</label><br>
+              <textarea class="msg" name="mensagem" placeholder="Olá mundo!" rows="8" cols="80"></textarea><br>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          </div>
         </div>
       </div>
-      
+
 
   <!-- Rodapé -->
   <footer>
@@ -216,6 +193,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="js/ajuda.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
