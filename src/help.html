@@ -141,15 +141,15 @@
         <!-- Corpo da Seção -->
         <div class="row">
           <div class="col-md col-sm">
-            <form class="formulario" action="#">
-              <label for="">Nome:</label>
-              <input class="nome" type="text" name="nome" required>
-              <label>Email:</label>
-              <input class="email" type="text" name="email" placeholder="nome@exemplo.br" required>
+            <form method="post" class="formulario" action="#">
+              <label for="nome">Nome:</label>
+              <input id="nome" type="text" required>
+              <label for="email">Email:</label>
+              <input id="email" type="text" placeholder="nome@exemplo.br" required>
               <br>
-              <label>Mensagem:</label><br>
-              <textarea class="msg" name="mensagem" placeholder="Olá mundo!" rows="8" cols="80"></textarea><br>
-              <button type="submit">Enviar</button>
+              <label for="message">Mensagem:</label><br>
+              <textarea id="message" placeholder="Escreva sua mensagem aqui." rows="8" cols="80"></textarea><br>
+              <button type="submit" id="submit" onclick="enviarMsg()">Enviar</button>
             </form>
           </div>
           </div>
