@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+  <script src="dbfake.js"></script>
 
   <!-- Meta tags -->
   <title>HE110 W0R1D_</title>
@@ -136,143 +137,48 @@
         <!-- Corpo da Seção -->
         <div class="row">
           <!-- Colunas de Conteúdo -->
-          <div class="ct-news col-sm-6 col-md-4">
-              <div class="inner">
-                  <div class="fauxcrop">
-                        <a href="https://tiinside.com.br/13/05/2022/e-commerce-cresce-126-e-fatura-r-396-bilhoes-no-1o-trimestre-de-2022/">
-                          <img alt="News" src="https://tiinside.com.br/wp-content/uploads/2013/03/retail-e1365473581457.jpg">
-                        </a>
-                  </div>
-                  <div class="ct-news-content">
-                      <div class="ct-news-date">
-                          <span>Maio</span><Strong>13</Strong>
-                      </div>
-                      <h3 class="ct-news-header">E-commerce cresce 12,6% e fatura R$39,6 
-                          bilhões no primeiro trimestre de 2022</h3>
-                  </div>
-              </div>
+          <div class="container">
+          <button onclick="getData()" class="btn btn-dark btn-lg mb-4">Atualizar Notícias</button>
+              <div id="news">
+              <img src="img/tecnews.jpg" class="img-fluid" >
           </div>
-          <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://tiinside.com.br/13/05/2022/ataques-de-ransomware-crescem-14/">
-                        <img alt="News" src="https://tiinside.com.br/wp-content/uploads/2017/10/ransonware.jpg">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Maio</span><Strong>13</Strong>
-                    </div>
-                    <h3 class="ct-news-header">Ataques de ransomware crescem 14% globalmente</h3>
-                </div>
-            </div>
+          </div>
+
         </div>
-        <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://tiinside.com.br/12/05/2022/setor-de-ti-entra-na-pauta-eleitoral-em-2022/">
-                        <img alt="News" src="https://tiinside.com.br/wp-content/uploads/2013/03/urna-eletronica-1.jpg">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Maio</span><Strong>12</Strong>
-                    </div>
-                    <h3 class="ct-news-header">Setor de TI entra na pauta eleitoral em 2022</h3>
-                </div>
-            </div>
-        </div>
-        <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://tiinside.com.br/10/05/2022/ibm-anuncia-expansao-da-computacao-quantica-em-larga-escala/">
-                        <img alt="News" src="https://tiinside.com.br/wp-content/uploads/2022/05/Computacao-quantica-696x464.jpg">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Maio</span><Strong>10</Strong>
-                    </div>
-                    <h3 class="ct-news-header">IBM anuncia expansão da computação quântica em larga escala</h3>
-                </div>
-            </div>
-        </div>
-        <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://exame.com/bussola/danilo-vicente-como-usar-a-tecnologia-para-gerar-impacto-social/">
-                        <img alt="News" src="https://classic.exame.com/wp-content/uploads/2022/01/Educacao-livros-filtro.jpeg?quality=70&strip=info&w=1024">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Maio</span><Strong>07</Strong>
-                    </div>
-                    <h3 class="ct-news-header">Como usar a tecnologia para gerar impacto social</h3>
-                </div>
-            </div>
-        </div>
-        <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://tiinside.com.br/06/05/2022/produtora-de-acucar-e-etanol-aposta-em-ia-para-aprimorar-previsao-do-tempo/">
-                        <img alt="News" src="https://tiinside.com.br/wp-content/uploads/2017/03/cana.jpg">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Maio</span><Strong>06</Strong>
-                    </div>
-                    <h3 class="ct-news-header">Produtora de açúcar e etanol aposta em IA para aprimorar previsão do tempo</h3>
-                </div>
-            </div>
-        </div>
-        <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://exame.com/carreira/programa-oferece-20-mil-bolsas-para-formar-desenvolvedores-full-stack/">
-                        <img alt="News" src="https://classic.exame.com/wp-content/uploads/2021/01/redes-sociais.jpg?quality=70&strip=info&w=1024">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Maio</span><Strong>05</Strong>
-                    </div>
-                    <h3 class="ct-news-header">Programa oferece 20 mil bolsas para formar desenvolvedores full stack</h3>
-                </div>
-            </div>
-        </div>
-        <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://tiinside.com.br/05/05/2022/dia-mundial-da-senha-84-das-senhas-mais-comuns-dos-brasileiros-podem-ser-crackeadas-em-menos-de-um-segundo/">
-                        <img alt="News" src="https://tiinside.com.br/wp-content/uploads/2021/06/PASSWORD-696x449.jpg">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Maio</span><Strong>05</Strong>
-                    </div>
-                    <h3 class="ct-news-header">Dia mundial da senha: 84% das senhas mais comuns dos brasileiros podem ser crackeadas em menos de um segundo</h3>
-                </div>
-            </div>
-        </div>
-        <div class="ct-news col-sm-6 col-md-4">
-            <div class="inner">
-                <div class="fauxcrop">
-                    <a href="https://exame.com/carreira/unicornio-madeiramadeira-expande-time-e-abre-25-vagas-de-estagio-em-tech/">
-                        <img alt="News" src="https://classic.exame.com/wp-content/uploads/2019/07/madeiramadeira-escritorio.jpg?quality=70&strip=info&w=1024">
-                    </a>
-                </div>
-                <div class="ct-news-content">
-                    <div class="ct-news-date">
-                        <span>Abril</span><Strong>18</Strong>
-                    </div>
-                    <h3 class="ct-news-header">Unicórnio MadeiraMadeira expande time e abre 25 vagas de estágio em tech</h3>
-                </div>
-            </div>
-        </div>
+      </div>
+       
     </div>
+    <script>
+        
+        var req=new XMLHttpRequest();
+        var url= 'https://newsdata.io/api/1/news?apikey=pub_80520624666e638b341e8f4055c7a10264d8&q=technology&language=en,pt&category=technology'
+        function processaDados() {
+            var dados= JSON.parse (req.responseText);
+            var saida = '';
+              for (i = 0; i < dados.results.length; i++) {
+              if(dados.results[i].description!=null){
+                saida += `<div class="box-news">   
+                    <div class="container">
+                    <div class="card-body mt-4">
+    <h5><b>${dados.results[i].title}</b></h5>
+    <p>${dados.results[i].description} </p>
+    <a href="${dados.results[i].link}" target="_blankt" class="btn btn-primary">More</a>
+    
+    </div>
+    </div>
+    </div>
+  </div>`
+}
+  }
+            document.getElementById('news').innerHTML = saida;
+   }
+
+        function getData() {
+            req.onload = processaDados;
+            req.open('GET', url, true);
+            req.send();
+        }
+   </script>
   </main>
 
   <!-- Rodapé -->
