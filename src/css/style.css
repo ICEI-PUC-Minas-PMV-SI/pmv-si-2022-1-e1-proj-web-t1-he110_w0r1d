@@ -266,15 +266,7 @@ footer div,
   }
 }
 
-<<<<<<< HEAD
 .btn-carousel {
-=======
-<<<<<<< HEAD .botao-ver-noticias {
-  margin-bottom: 1rem;
-}
-
-.btn-homepage {
->>>>>>> 7d1e70d658d7c3d4efd99024fd5b01b4319454ae
   color: #fff;
   font-weight: bold;
   text-align: center;
@@ -283,7 +275,6 @@ footer div,
   padding: 0.6rem;
   border-radius: 0.4rem;
   border: #73C990 1px solid;
-<<<<<<< HEAD
   color:rgba(115, 201, 144, 0.8);
   
 
@@ -297,11 +288,6 @@ footer div,
   border: #73C990 1px solid;
   color:rgba(115, 201, 144, 0.8);
   
-=======
-  position: absolute;
-  width: 350px;
-  height: 65px;
->>>>>>> 7d1e70d658d7c3d4efd99024fd5b01b4319454ae
 }
 
 .box-quem-somos {
@@ -312,12 +298,9 @@ footer div,
   border-radius: 0.4rem;
   border: #73C990 1px solid;
 }
-<<<<<<< HEAD
 /* ----------- news ----------- */
-=======
->>>>>>> 7d1e70d658d7c3d4efd99024fd5b01b4319454ae
 
-=======
+
 
 /* ----------- news ----------- */
 .ct-news {
@@ -376,8 +359,4 @@ footer div,
   padding: 0 20px;
   vertical-align: top;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>>66abd37df478f3cc7793b0081f851ab717bbec50
->>>>>>> 7d1e70d658d7c3d4efd99024fd5b01b4319454ae
