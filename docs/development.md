@@ -10,7 +10,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 - RF-001 - Disponibilizaruma página com os primeiros passos para um programador
 
-Ao clicar na opção `Primeiros Passos/Guia do Git` na `nav-bar` o usuário será levado à página abaixo, ela foi desenvolvida para atender ao RF-001.
+Ao clicar na opção `Primeiros Passos/Guia do Git` na `nav-bar` o usuário será levado à página abaixo, ela faz parte das páginas desenvolvidas para atender ao RF-001.
 
 ![Guia do Git](img/guia-do-git.png) <br/>
 
