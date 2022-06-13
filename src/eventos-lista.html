@@ -1,260 +1,193 @@
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags -->
-    <title>HE110 W0R1D_</title>
 
-    <link rel="shortcut icon" type="imagex/png" href="img/favicon.ico" />
+<head>
+  <!-- Meta tags -->
+  <title>HE110 W0R1D_</title>
 
-    <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="imagex/png" href="img/favicon.ico" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
 
-    <meta
-      name="keywords"
-      content="programação, cursos ti, html, css, javascript, python, grupos telegram ti, git, ide, figma, axure"
-    />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+  <meta name="keywords"
+    content="programação, cursos ti, html, css, javascript, python, grupos telegram ti, git, ide, figma, axure" />
 
-    <!-- CSS Master -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/eventos.css" />
-  </head>
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-  <!-- Corpo da Página -->
+  <!-- CSS Master -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/eventos.css" />
+</head>
 
-  <body>
-    <!-- Cabeçalho -->
-    <header>
-      <!-- Barra de Navegação -->
-      <nav class="navbar navbar-expand-lg">
-        <!-- Marca do Site -->
-        <a href="#" class="navbar-brand marca">
-          <img id="logo" src="img/icon/icone.png" alt="logo" />
+<!-- Corpo da Página -->
 
-          <img id="marca-nav" src="img/icon/logo-name.png" alt="HE110 W0R1D_" />
-        </a>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg">
+      <!-- Marca do Site -->
+      <a href="#" class="navbar-brand marca">
+        <img id="logo" src="img/icon/icone.png" alt="logo" />
 
-        <!-- Botão Expandir Navbar -->
-        <button
-          class="navbar-toggler custom-toggler ml-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <img id="marca-nav" src="img/icon/logo-name.png" alt="HE110 W0R1D_" />
+      </a>
 
-        <div id="navbarSupportedContent" class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
-            <!-- Menu: Primeiros Passos -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-              >
-                Primeiros Passos</a
-              >
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="guia-de-ides.html"
-                  >Editores de Código</a
-                >
-                <a class="dropdown-item" href="guia-do-git.html">Guia do GIT</a>
-                <a class="dropdown-item" href="fundamentos.html"
-                  >Fundamentos Básicos</a
-                >
-              </div>
-            </li>
+      <!-- Botão Expandir Navbar -->
+      <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- Menu: Linguagens -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-              >
-                Linguagens</a
-              >
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="guia-de-html.html">HTML</a>
-                <a class="dropdown-item" href="guia-de-css.html">CSS</a>
-                <a class="dropdown-item" href="Guia-JavaScript.html"
-                  >JavaScript</a
-                >
-                <a class="dropdown-item" href="python.html">Python</a>
-              </div>
-            </li>
-
-            <!-- Menu: Blog -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-              >
-                Blog</a
-              >
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="news.html">Notícias</a>
-                <a class="dropdown-item" href="Podcasts.html">Podcasts</a>
-                <a class="dropdown-item" href="ferramentas.html">Ferramentas</a>
-                <a class="dropdown-item" href="dicas.html">Dicas</a>
-              </div>
-            </li>
-
-            <!-- Menu: Eventos -->
-            <li class="nav-item">
-              <a class="nav-link" href="eventos-lista.html"> Eventos</a>
-            </li>
-
-            <!-- Menu: Contato -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-              >
-                Contato</a
-              >
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="quem%20somos.html">Quem somos</a>
-                <a class="dropdown-item" href="#">Ajuda</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- Menu: Caixa de Pesquisa -->
-          <div id="pesquisa">
-            <form class="form-inline">
-              <input
-                class="form-control mr-sm-2"
-                type="search"
-                placeholder="Busque aqui"
-                aria-label="Search"
-              />
-              <button
-                class="btn btn-search btn-outline-dark my-2 my-sm-0"
-                type="submit"
-              >
-                Pesquisar
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-md col-sm">
-            <h1>EVENTOS</h1>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row pb-3">
-          <div class="col-md col-sm">
-            <h2>
-              Fique por dentro dos principais eventos de tecnologia de 2022 e
-              programe-se!
-            </h2>
-          </div>
-        </div>
-
-        <div class="row pb-3">
-          <div class="col-2">
-            <select
-              class="form-select"
-              id="filtro-categoria"
-              aria-label="Default select example"
-            >
-              <option value="Todos" selected>Selecione a categoria</option>
-              <option value="Evento Online">Eventos online</option>
-              <option value="Evento Presencial">Eventos Presenciais</option>
-            </select>
-          </div>
-
-          <div class="col-2">
-            <select
-              class="form-select"
-              id="ordenacao"
-              aria-label="Default select example"
-            >
-              <option selected>Ordenar</option>
-              <option value="Recentes">Mais recentes</option>
-              <option value="Antigos">Mais antigos</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="row pl-3" id="grade-de-eventos"></div>
-      </div>
-    </main>
-
-    <!-- Rodapé -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md footer-logo col-sm">
-            <span>
-              <img id="logo-footer" src="img/icon/logo.png" alt="logo-footer" />
-            </span>
-          </div>
-          <div class="col-md col-sm">
-            <div id="botao-git">
-              <button
-                onclick="location.href='https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t1-he110_w0r1d'"
-                class="btn btn-outline-dark"
-                type="button"
-                name="github"
-              >
-                <img
-                  class="github"
-                  src="img/github-logomark.png"
-                  alt="icone-github"
-                />
-                <img
-                  class="github"
-                  src="img/GitHub_Logo.png"
-                  alt="nome-github"
-                />
-              </button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <!-- Menu: Primeiros Passos -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Primeiros Passos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="guia-de-ides.html">Editores de Código</a>
+              <a class="dropdown-item" href="guia-do-git.html">Guia do GIT</a>
+              <a class="dropdown-item" href="fundamentos.html">Fundamentos Básicos</a>
             </div>
-            <div>
-              <p>© 2022 Copyright: HE110 W0R1D_</p>
+          </li>
+
+          <!-- Menu: Linguagens -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Linguagens</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="guia-de-html.html">HTML</a>
+              <a class="dropdown-item" href="guia-de-css.html">CSS</a>
+              <a class="dropdown-item" href="Guia-JavaScript.html">JavaScript</a>
+              <a class="dropdown-item" href="python.html">Python</a>
             </div>
+          </li>
+
+          <!-- Menu: Blog -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Blog</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="news.html">Notícias</a>
+              <a class="dropdown-item" href="Podcasts.html">Podcasts</a>
+              <a class="dropdown-item" href="ferramentas.html">Ferramentas</a>
+              <a class="dropdown-item" href="dicas.html">Dicas</a>
+            </div>
+          </li>
+
+          <!-- Menu: Eventos -->
+          <li class="nav-item">
+            <a class="nav-link" href="eventos-lista.html"> Eventos</a>
+          </li>
+
+          <!-- Menu: Contato -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+              Contato</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="quem%20somos.html">Quem somos</a>
+              <a class="dropdown-item" href="help.html">Ajuda</a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Menu: Caixa de Pesquisa -->
+        <div id="pesquisa">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Busque aqui" aria-label="Search" />
+            <button class="btn btn-search btn-outline-dark my-2 my-sm-0" type="submit">
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md col-sm">
+          <h1>EVENTOS</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row pb-3">
+        <div class="col-md col-sm">
+          <h2>
+            Fique por dentro dos principais eventos de tecnologia de 2022 e
+            programe-se!
+          </h2>
+        </div>
+      </div>
+
+      <div class="row pb-3">
+        <div class="col-2">
+          <select class="form-select" id="filtro-categoria" aria-label="Default select example">
+            <option value="Todos" selected>Selecione a categoria</option>
+            <option value="Evento Online">Eventos online</option>
+            <option value="Evento Presencial">Eventos Presenciais</option>
+          </select>
+        </div>
+
+        <div class="col-2">
+          <select class="form-select" id="ordenacao" aria-label="Default select example">
+            <option selected>Ordenar</option>
+            <option value="Recentes">Mais recentes</option>
+            <option value="Antigos">Mais antigos</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row pl-3" id="grade-de-eventos"></div>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md footer-logo col-sm">
+          <span>
+            <img id="logo-footer" src="img/icon/logo.png" alt="logo-footer" />
+          </span>
+        </div>
+        <div class="col-md col-sm">
+          <div id="botao-git">
+            <button
+              onclick="location.href='https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t1-he110_w0r1d'"
+              class="btn btn-outline-dark" type="button" name="github">
+              <img class="github" src="img/github-logomark.png" alt="icone-github" />
+              <img class="github" src="img/GitHub_Logo.png" alt="nome-github" />
+            </button>
+          </div>
+          <div>
+            <p>© 2022 Copyright: HE110 W0R1D_</p>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!--JS Scripts Eventos-->
-    <script src="js/eventos-lista.js"></script>
+  <!--JS Scripts Eventos-->
+  <script src="js/eventos-lista.js"></script>
 
-    <!-- JS Scripts Bootstrap -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- JS Scripts Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
