@@ -21,7 +21,7 @@ fetch(URL)
     carregaListaNaGradeEventos(listaCompleta);
   });
 
-//funcoes
+// funcoes
 function carregaListaNaGradeEventos(listaJson) {
   var gradeDeEventos = document.getElementById("grade-de-eventos");
   gradeDeEventos.innerHTML = "";
@@ -37,17 +37,18 @@ function crieHtmlDinamicoParaEvento(evento) {
   return `
 <a href="./eventos-detalhes.html?id=${evento.id}" class="col-4 bloco">
     <div class="row pt-2">
-        <img src="${evento.imagem}" alt="">
-    </div>
+        <img id="img" src="${evento.imagem}" alt="">
+</div>
     <div class="row pt-2 pb-2 bloco-info">
         <div class="col">${new Date(evento.data).toLocaleDateString()}</div>
         <div class="col text-right">${evento.categoria}</div>
     </div>
-    <div class="row pb-2">
-        <div class="col pl-0">
-        <span class="bloco-titulo">${evento.titulo}</span>
-        </div>
     </div>
+    <div class="row pb-2">
+    <div class="col pl-0">
+    <span class="bloco-titulo">${evento.titulo}</span>
+    </div>
+</div>
 </a>
 `;
 }

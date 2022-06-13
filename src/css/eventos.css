@@ -6,11 +6,14 @@
 .bloco-info > div {
   padding-left: 0;
 }
+.condicao {
+  font-weight: bold;
+}
 
 .bloco-titulo {
   width: 80%;
   display: block;
-  padding: 1.2rem 0;
+  padding: 1rem 0;
 }
 
 #eventoescolhido {
@@ -24,8 +27,13 @@
   width: 100%;
   text-align: left;
 }
-#video {
-  height: 35rem !important;
+#imagem {
+  height: 100% !important;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+#img {
+  height: 15rem;
 }
 .bloco {
   color: #73c990;

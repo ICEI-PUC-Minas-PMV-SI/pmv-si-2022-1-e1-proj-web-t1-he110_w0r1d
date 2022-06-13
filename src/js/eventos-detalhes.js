@@ -26,9 +26,11 @@ function eventoNaoEncontrado() {
 function eventoEncontrado(evento) {
   const titulo = document.getElementById("titulo");
   const descricao = document.getElementById("texto");
-  const video = document.getElementById("video");
+  const imagem = document.getElementById("imagem");
+  const link = document.getElementById("linkSiteOficial");
 
   titulo.innerText = evento.titulo;
   descricao.innerText = evento.descricao;
-  video.src = evento.video;
+  imagem.src = evento.imagem;
+  link.href = evento.link;
 }

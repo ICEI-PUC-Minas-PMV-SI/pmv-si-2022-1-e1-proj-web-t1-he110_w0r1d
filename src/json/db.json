@@ -1,31 +1,113 @@
 {
     "eventos": [
+      {
+        "id": 1,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/01/618a7a5f1963d-lg-1024x576.jpg",
+        "data": 1642066250000,
+        "categoria": "Evento Presencial",
+        "titulo": "Rio Innovation Week | 13 a 16 de janeiro",
+        "descricao": "O Rio Innovation Week é um evento promovido por empresários e pelo poder público para atrair o ecossistema de inovação e tornar o Rio de Janeiro um futuro polo de tecnologia e empreendedorismo inovador da América Latina. O evento acontece no Jockey Club Brasileiro, na Gávea, entre os dias 13 e 16 de janeiro, e terá mais de 500 palestrantes, 190 expositores e mais de 1.000 startups durante os três dias de realização.",
+        "link": "https://rioinnovationweek.com.br/"
+      },
+      {
+        "id": 2,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2021/12/original-1024x631.jpg",
+        "data": 1644658250000,
+        "categoria": "Evento Online",
+        "titulo": "DeveloperWeek | 2 a 9 de fevereiro",
+        "descricao": "A cada ano, mais de 8.000 desenvolvedores, engenheiros, arquitetos de software, equipes de desenvolvimento, gerentes e executivos de mais de 70 países se reúnem na DeveloperWeek, que este ano acontece entre os dias 2 e 9 de fevereiro de maneira híbrida, na cidade de Oakland, Califórnia. O evento traz as últimas novidades na área de desenvolvimento de softwares, linguagens, plataformas e ferramentas.",
+        "link": "https://www.developerweek.com/"
+      },
+      {
+        "id": 3,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2021/12/20190319-Domopalooza-2019-76-1024x684.jpg",
+        "data": 1647953579000,
+        "categoria": "Evento Online",
+        "titulo": "Domopalooza 2022 | 22 a 25 de março",
+        "descricao": "O Domopalooza 2022 acontecerá de 22 a 25 de março de 2022 no Grand America Hotel em Salt Lake City e contará também com transmissão online. O evento terá a presença de analistas da indústria e líderes de negócios baseados em dados de mais de 40 organizações de todo o mundo. A edição 2022 contará com mais de 60 apresentações, treinamento, mesas-redondas e workshops.",
+        "link": "https://www.domo.com/domopalooza"
+      },
+      {
+        "id": 4,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/01/41175042202-7b8e333fab-k-edited.jpg",
+        "data": 1650977579000,
+        "categoria": "Evento Presencial",
+        "titulo": "Rio Criative Conference (Rio2C) | 26 de abril a 1 de maio",
+        "descricao": "A Cidade das Artes, na Barra da Tijuca, Zona Oeste do Rio, abre suas portas, em abril, para o maior evento de criatividade e inovação da América Latina, o Rio2C – Rio Criative Conference. Sucessor do RioContentMarket, o Rio2C reúne executivos das principais empresas de produção de conteúdo, além de cientistas, profissionais de mídia e artistas nacionais e internacionais. O evento se divide em três campos: mercado, conferência e festival, sendo os dois primeiros voltados para empreendedores e profissionais da indústria criativa, e o terceiro oferecendo experiências, oficinas e painéis a estudantes, universitários e jovens recém-formados. A edição 2022 vai ocorrer entre os dias 26 de abril a 1 de maio. As vendas dos ingressos serão iniciadas ainda neste primeiro semestre no site oficial. ",
+        "link": "https://www.rio2c.com/"
+      },
+      {
+        "id": 5,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/01/img_72-edited.png",
+        "data": 1652088650000,
+        "categoria": "Evento Online",
+        "titulo": "IBM Think 2022 | 9 a 13 de maio",
+        "descricao": "Think 2022 é uma conferência da IBM dedicada a tecnologia, soluções e software, como IA, nuvem, dados e segurança O evento reúne clientes de TI, engenheiros, arquitetos, desenvolvedores, parceiros e especialistas do setor interessados ​​em tecnologia e software da IBM. O Think 2022 será realizado online de 09 a 13 de maio. ",
+        "link": "https://www.ibm.com/events/think/"
+      },
+      {
+        "id": 6,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/01/imagem_2022-01-19_182036-1024x576.png",
+        "data": 1654594250000,
+        "categoria": "Evento Online",
+        "titulo": "WomenTech Global Conference | 7 a 10 de junho",
+        "descricao": "O WomenTech Global Conference é dedicado às mulheres que fazem parte do universo da tecnologia. O evento foi pensado para profissionais, como engenheiras de software, gerente de produto, designer, cientista de dados, gerente de negócios em tecnologia e toda e qualquer profissional que trabalhe na área.",
+        "link": "https://www.womentech.net/en-us/women-tech-conference"
+      },
+      {
+        "id": 7,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/05/image-87-1024x593.png",
+        "data": 1655199050000,
+        "categoria": "Evento Presencial",
+        "titulo": "Google for Brasil | 14 de junho",
+        "descricao": "No Google for Brasil, serão anunciados os lançamentos de vários programas e iniciativas desenvolvidas para o país, que contribuem com a recuperação econômica, fortalecem a indústria jornalística, auxiliam os eleitores a melhor participar do processo eleitoral, entre muitas outras. Haverá a presença de líderes internacionais do Google, que renovarão nosso compromisso de investir no Brasil, usando a tecnologia para contribuir na construção de um país mais inclusivo, socialmente justo e economicamente sustentável. O evento será realizado no dia 14 de junho no Um Rooftop, localizado no bairro do Butantã, em São Paulo. As inscrições estão abertas no site do evento.",
+        "link": "https://events.withgoogle.com/google-for-brazil-22/"
+      },
+      {
+        "id": 8,
+        "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/01/pasted-image-0-1-edited.png",
+        "data": 1656754250000,
+        "categoria": "Evento Presencial",
+        "titulo": "Roadsec | 2 de julho",
+        "descricao": "Desde a primeira edição realizada em 2014, o Roadsec reúne apaixonados por hacking de todo o país para compartilhar conteúdo, fazer networking e fomentar a comunidade de segurança da informação e tecnologia. O evento é considerado o maior Festival de cultura Hacker da América Latina, sendo focado em conhecimento técnico, recrutamento tech e comunidade. Os ingressos para a Roadsec 2022 já estão disponíveis no site do evento. A edição deste ano será realizada no dia 2 de julho, em local a ser definido, na cidade de São Paulo.",
+        "link": "https://www.roadsec.com.br/"
+      },
     {
-      "id": 1,
-      "imagem": "http://img.youtube.com/vi/7vqnazqmceQ/0.jpg",
-      "video": "https://www.youtube.com/embed/7vqnazqmceQ",
-      "data": 1643311311111,
-      "categoria": "Evento Online",
-      "titulo": "How to Discover Your Authentic Self -- at Any Age | Bevy Smith | TED",
-      "descricao": "In a talk packed with wry wisdom, pop culture queen Bevy Smith shares hard-earned lessons about authenticity, confidence, mature success and why, if you put in the work, 'life gets greater later.'"
+      "id": 9,
+      "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/01/maxresdefault-78-1024x576.jpg",
+      "data": 1662036779000,
+      "categoria": "Evento Presencial",
+      "titulo": "Mind7 Startup | 1 e 2 de setembro",
+      "descricao": "O Mind7 Startup é um evento sem fins lucrativos organizado por voluntários da associação Acelera Serra. Reúne palestrantes, startups, aceleradoras, fundos de investimento e empresas inovadoras do Rio Grande do Sul e de todo Brasil em uma imersão no universo da inovação, das startups, da tecnologia e da nova economia. O Mind7 Startup será realizado nos dias 1 e 2 de setembro, no município de Caxias do Sul, no estado do Rio Grande do Sul.",
+      "link": "https://www.mind7startup.com.br/"
+
     },
     {
-      "id": 2,
-      "imagem": "http://img.youtube.com/vi/h5D3mv8ewCY/0.jpg",
-      "video": "https://www.youtube.com/embed/h5D3mv8ewCY",
-      "data": 2643311322222,
-      "categoria": "Palestra",
-      "titulo": "How mRNA Medicine Will Change the World | Melissa J. Moore | TED",
-      "descricao":"The secret behind medicine that uses messenger RNA (or mRNA) is that it teaches our bodies how to fight diseases on our own, leading to groundbreaking treatments for COVID-19 and, potentially one day, cancer, the flu and other ailments that have haunted humanity for millennia. RNA researcher Melissa J. Moore -- Moderna's chief scientific officer and one of the many people responsible for the rapid creation and deployment of their COVID-19 vaccine -- takes us down to the molecular level, unraveling how mRNA helps our bodies' proteins maintain health, prevent disease and correct errors in our genetic code. 'We have entered an entirely new era of medicine,' Moore says."
+      "id": 10,
+      "imagem": "https://www.showmetech.com.br/wp-content/uploads/2022/01/whatsapp-image-2019-09-05-at-20.06.14-1-edited.jpeg",
+      "data":  1663246379000,
+      "categoria": "Evento Presencial",
+      "titulo": "Hack Town | 15 a 18 de setembro",
+      "descricao":"De 15 a 18 de setembro, Santa Rita do Sapucaí, em Minas Gerais, será palco de mais de 800 palestras, shows, workshops e pitch sessions na Hack Town 2022. A nova edição marcará o retorno do festival para o modelo presencial, que precisou ser interrompido devido à pandemia da Covid-19. O último evento aconteceu em 2020 de forma virtual, devido às restrições sanitárias. A edição 2022 do Hacktown promete ser a maior desde a concepção do evento há 5 anos. A expectativa é que Santa Rita do Sapucaí, que tem hoje cerca de 44 mil habitantes, receba 30 mil pessoas por dia durante o festival. Além disso, a promessa é que o conteúdo apresentado durante o HackTown seja ainda maior, diverso e com protagonismo feminino. A meta para este ano é que 60% das atrações sejam de mulheres.",
+      "link": "https://hacktown.com.br/"
     },
     {
-      "id": 3,
-      "imagem": "http://img.youtube.com/vi/apbSsILLh28/0.jpg",
-      "video": "https://www.youtube.com/embed/apbSsILLh28",
-      "data": 3643311333333,
-      "categoria": "Palestra",
-      "titulo": "What really matters at the end of life | BJ Miller",
-      "descricao": "The TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. "
+      "id": 11,
+      "imagem": "https://www.showmetech.com.br/wp-content/uploads/2021/12/bgs-1024x683.jpg",
+      "data": 1665048650000,
+      "categoria": "Evento Presencial",
+      "titulo": "Brasil Game Show | 6 a 12 de outubro",
+      "descricao": "A Brasil Game Show (BGS) é uma das maiores feiras anuais de games do mundo e a maior feira do gênero na América Latina. Focada no mundo dos games, as feiras da Brasil Game Show atraem sempre um grande público. A feira normalmente traz as novidades do mundo dos games, com lançamentos de novos jogos ou consoles, várias palestras com criadores de games, workshops, diversos campeonatos e disputas de games ,espaços para exposição, estações de jogo, concursos de cosplay, entre outras atrações. A edição 2022 acontece entre os dias 6 e 12 de outubro, no Expo Center Norte, em São Paulo.",
+      "link": "https://www.brasilgameshow.com.br/"
+    },
+    {
+      "id": 12,
+      "imagem": "https://www.showmetech.com.br/wp-content/uploads/2021/12/aves-de-rapina-ccxp-2019.jpg",
+      "data": 1669887050000,
+      "categoria": "Evento Presencial",
+      "titulo": "Comic Con Experience (CCXP) | 1 a 4 de dezembro",
+      "descricao": "A Comic Con Experience (CCXP) é um dos maiores eventos pop do mundo e traz ao Brasil tudo o que faz a San Diego Comic-Con um marco para os fãs do universo geek. O evento aborda séries, filmes, quadrinhos e games e é responsável por dar um gostinho do que as principais empresas de entretenimento do mundo estão planejando. Em 2022, o evento acontece entre os dias 1 e 4 de dezembro, na São Paulo Expo, na capital paulista.",
+      "link": "https://www.ccxp.com.br/ingressos-2022"
     }
   ]
 }
