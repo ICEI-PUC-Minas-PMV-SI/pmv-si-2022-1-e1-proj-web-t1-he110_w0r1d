@@ -9,9 +9,9 @@ btn.addEventListener('click', function (e){
     const publicKEY = "yv5IegctYrD0NW6Rq";
 
     emailjs.sendForm(serviceID,templateID, form, publicKEY)
-        .then(function(response) {
-            console.log('Enviado!', response.status, response.text);
-        }, function(err) {
-            console.log('Error...', err);
+        .then((res) => {
+            alert('Mensagem enviada!');
+        }, (error) => {
+            console.log('FAILED...', error.text);
         });
 });

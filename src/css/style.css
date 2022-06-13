@@ -124,7 +124,9 @@ h3 {
 .mt {
   margin-top: 3rem;
 }
-
+.mr-2 {
+  margin-left: 0.4rem;
+}
 /*botoa link externo*/
 .btn-link {
   border-color: #73C990;
