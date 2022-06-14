@@ -4,12 +4,15 @@
   "description": "WebApp primeiro semestre",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "concurrently \"npm:db-eventos\" \"npm:server\" ",
+    "server": "node index.js",
+    "db-eventos": "json-server --watch src/json/db-eventos.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^7.2.1",
     "express": "^4.18.1"
   }
 }
