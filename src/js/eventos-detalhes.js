@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
-URL = "http://localhost:3000/eventos/" + id;
+URL = "/api/eventos/" + id;
 
 fetch(URL)
   .then((res) => {

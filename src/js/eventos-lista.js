@@ -1,4 +1,4 @@
-URL = "http://localhost:3000/eventos";
+URL = "/api/eventos";
 
 // elementos html
 var campoFiltroOrdenacao = document.getElementById("ordenacao");
