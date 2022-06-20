@@ -151,24 +151,26 @@
         </div>
         <!-- Corpo da Seção -->
         <div class="row">
+          <div class="col-md col-sm"></div>
           <div class="col-md col-sm">
-            <form method="post" id="form">
+            <form class="formulario" method="post" id="form">
               <div class="field">
                 <label for="nome">Nome: </label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome*" required>
               </div>
               <div class="field">
                 <label for="email">Email: </label>
-                <input type="text" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="Digite seu Email*" required>
               </div>
               <div class="field">
                 <label for="message">Mensagem: </label><br />
-                <textarea rows="8" cols="80" name="message" id="message"></textarea>
+                <textarea rows="8" cols="80" name="message" id="message" placeholder="Mensagem*" required></textarea>
               </div>
 
-              <input type="submit" id="enviar" value="Enviar">
+              <input type="submit" id="enviar" value="Enviar" name="acao">
             </form>
           </div>
+          <div class="col-md col-sm"></div>
         </div>
       </div>
     </div>
