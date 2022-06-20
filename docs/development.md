@@ -35,9 +35,13 @@ A página `Ferramentas` agrega um conteúdo popular entre desenvolvedores para a
 
 Ela possui um formato de fácil consumo, estruturando o conteúdo em pequenas **seções de conteúdo** com texto e vídeo sobre a ferramenta.
 
-Cada **seção de conteúdo** possui o **título da ferramenta** e uma breve descrição ou introdução, uma breve recomendação em negrito e **botões de redirecionamento** do usuário, seja para a `Página da Ferramenta`, `Documentação` ou `Download` se disponível.
+Cada **seção de conteúdo** possui o **título da ferramenta** e uma breve descrição ou introdução, uma breve recomendação em negrito e **botões de redirecionamento** do usuário, seja para a `Página da Ferramenta`, `Documentação` ou `Download` se disponível, como mostrado nas imagens abaixo.
 
 ![Ferramentas](img/ferramentas.png) <br/>
+
+Exemplo de uma ferramenta com botão de `Download`.
+
+![Botões download](img/botoes-download.png) <br />
 
 ## Editores de Código
 
@@ -61,9 +65,7 @@ Nela está um breve comparativo entre IDEs e Editores de Código, um redireciona
 
 A página `Ajuda` permite que o usuário envie uma mensagem de contato para a equipe de desenvolvimento através de um formulário simples feito em `HTML` e usando a API do `EmailJS` para realizar os envios seguindo um template que a ferramenta mesmo proporciona.
 
-No `src/help.html` no final tem um snippet para dar entrada a API key pública usando a função `emailjs.init('<yv5IegctYrD0NW6Rq>');` sendo `yv5IegctYrD0NW6Rq` a chave pública.
-
-*n.b. imagem com css ainda não formatado - será atualizado em breve*
+No `src/help.html` no final tem um snippet para dar entrada a API key pública usando a função `emailjs.init('< --PublicKey-- >');` sendo `--PublicKey--` onde irá usar sua chave pública.
 
 ![Ajuda](img/ajuda.png) <br/>
 
@@ -73,7 +75,7 @@ Para realizar o envio, é necessário usar um snippet do EmailJS com os dados ne
 
 Para isso, foi usado um javascript básico que puxa os dados inseridos no formulário e aciona um gatilho quando o botão de enviar é clicado.
 
-É necessário importar o CDN do EmailJS no HTML
+É necessário usar o CDN do EmailJS no HTML
 ```
 <head>
 ...
@@ -84,7 +86,7 @@ Para isso, foi usado um javascript básico que puxa os dados inseridos no formul
   </script>
   <script type="text/javascript">
     (function () {
-      emailjs.init('<yv5IegctYrD0NW6Rq>');
+      emailjs.init('< --PublicKey-- >');
     })();
   </script>
 </head>
@@ -99,14 +101,14 @@ const form = document.getElementById('form');
 btn.addEventListener('click', function (e){
     e.preventDefault();
 
-    // servico registrado, nesse caso o email do projeto pmvsihw@gmail.com
-    const serviceID = "service_gej7skl";
+    // servico registrado, nesse caso o email do projeto
+    const serviceID = " --ServiceID-- ";
     
     // template criado no serviço, veja na imagem abaixo o exemplo
-    const templateID = "template_o7l66aa";
+    const templateID = " --TemplateID-- ";
     
     // chave publica da api
-    const publicKEY = "yv5IegctYrD0NW6Rq";
+    const publicKEY = " --PublicKey-- ";
 
     // função sendForm com entrada dos dados da var 'form' declarada acima
     emailjs.sendForm(serviceID,templateID, form, publicKEY)
@@ -121,6 +123,8 @@ btn.addEventListener('click', function (e){
 ```
 Observe que no código `HTML` os itens do formulário possuem a mesma definição que o template.
 Sendo o item Nome contendo `name = nome` dentro da tag `<input type="text" name="nome">`.
+
+Apesar de na imagem abaixo, apresentar os endereços emailDestino e emailFonte como exemplo, é possível e recomendado que se use o mesmo endereço.
 
 ![Template EmailJS](img/template-emailjs.png)
 
