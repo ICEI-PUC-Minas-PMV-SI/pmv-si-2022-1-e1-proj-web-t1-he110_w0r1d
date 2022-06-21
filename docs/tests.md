@@ -2,48 +2,51 @@
 
 ## Resultados Esperados
 
-| Nº Teste | Local | Cenário de teste |
-|----------|-------|------------------|
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  | 
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
-| TF-000   | Local | && descrição &&  |
+Note que foi usado uma formatação específica para recursos que são repetidos em todo o projeto, evitando a poluição da tabela, tais como `navbar` que se refere a barra de navegação de todas as páginas e `vídeos embedded` a qual se refere a todas as mídias usadas do youtube no HTML através da tag `<iframe>`.
+
+| Nº Teste | Local              | Cenário de teste                                                                                                                                                                |
+|----------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TF-001   | `navbar`           | Ao clicar no menu de queda desejado, deverá ser apresentado as opções de páginas daquele menu para o usuário navegar entre as páginas de forma clara e sem atrasos.             |
+| TF-002   | `navbar`           | O botão hambúrguer presente em dimensões de tela menores que `992px` de comprimento deverá funcionar corretamente de acordo com a responsividade esperada.                      |
+| TF-003   | `videos embedded`  | Ao carregar a página, é esperado que todas as mídias usadas sejam apresentadas corretamente com suas devidas medidas responsivas sem erros.                                     |
+| TF-004   | `videos embedded`  | Dado o play em qualquer mídia usada na página, é esprado que o controle de mídia esteja disponível para o usuário.                                                              |
+| TF-000   | Editores de Código | Ao clicar no botão 'SITE OFICIAL'/'DOWNLOAD, o usuário deverá ser redirecionado para a 'Página Inicial' e 'Página de Download' respectivamente do artefato desejado.            | 
+| TF-000   | Guia do GIT        | Ao clicar no botão 'Link Github' o usuário deverá ser redirecionado na mesma aba para a documentação do github referente ao parágrafo que se encontra.                          |
+| TF-000   | Guia do GIT        | Ao clicar no link em texto 'Código fonte' no último parágrafo, o usuário deverá ser redirecionado corretamente para o link externo.                                             |
+| TF-000   | Ferramentas        | Os botões 'SITE OFICIAL' deverão redirecionar o usuário para a página inicial do software desejado.                                                                             |
+| TF-000   | Ferramentas        | Os botões 'DOWNLOAD' deverão redirecionar o usuário para a página de download do software desejado se disponível.                                                               |
+| TF-000   | Ferramentas        | Os botões 'DOCS' deverão redirecionar o usuário para a página de documentação do software desejado se disponível.                                                               |
+| TF-000   | Ajuda              | É esperado que ao clicar no botão `Enviar` os dados fornecidos pelo usuário no formulário, sejam enviados para o email do projeto corretamente, seguindo a formatação desejada. |
+| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
+| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
+| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
+| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
+| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
 
 
 # Registro de Testes de Software
 
 ## Resultados Obtidos
 
-| Nº Teste | Local | Resultado do Teste | Bugs? |
-|----------|-------|--------------------|-------|
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
-| RTF-000  | Local | && descrição &&    | S/N?  |
+| Nº Teste | Local              | Resultado do Teste                                                                                                                             | Bugs? |
+|----------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------|
+| RTF-001  | `navbar`           | Todos os links presentes no menu de queda redirecionam corretamente para suas devidas páginas.                                                 | Não   |
+| RTF-002  | `navbar`           | O menu hambúrguer apresenta total responsividade nas principais dimensões de tela.                                                             | Não   |
+| RTF-003  | `videos embedded`  | Todos os vídeos usados nas páginas estão carregando corretamente sem atrasos e apresentam responsividade para as principais dimensões de tela. | Não   |
+| RTF-004  | `videos embedded`  | Todas as mídias usadas nas páginas estão apresentando seus devidos controles como esperado.                                                    | Não   |
+| RTF-000  | Editores de Código | Os botões 'SITE OFICIAL' e 'DOWNLOAD' estão redirecionando para seus devidos links externos como esperado                                      | Não   |
+| RTF-000  | Guia do GIT        | O botão 'Link Github' redireciona o usuário corretamente para a documentação referente a postagem em que se encontra.                          | Não   |
+| RTF-000  | Guia do GIT        | O hyperlink 'Código fonte' está redirecionando o usuário como esperado para a página externa da plataforma "Código Fonte"                      | Não   |
+| RTF-000  | Ferramentas        | O botão 'SITE OFICIAL' redireciona o usuário corretamente para a página inicial do artefato desejado.                                          | Não   |
+| RTF-000  | Ferramentas        | O botão 'DOWNLOAD' redireciona o usuário corretamente para a página de download do artefato desejado.                                          | Não   |
+| RTF-000  | Ferramentas        | O botão 'DOCS' redireciona o usuário corretamente para a página com a documentação do artefato desejado.                                       | Não   |
+| RTF-000  | Ajuda              | O formulário se apresenta funcional como esperado, os dados estão sendo enviados corretamente com a formatação esperada no corpo do email.     | Não   |
+| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
+| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
+| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
+| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
+| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
+| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
 
 
 ## Avaliação
