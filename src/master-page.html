@@ -1,178 +1,231 @@
 >
 <!DOCTYPE html>
 <html lang="pt-br">
+  <!-- Meta tags -->
+  <title>HE110 W0R1D_</title>
 
-<!-- Meta tags -->
-<title>HE110 W0R1D_</title>
+  <link rel="shortcut icon" type="imagex/png" href="img/favicon.ico" />
 
-<link rel="shortcut icon" type="imagex/png" href="img/favicon.ico">
+  <meta charset="UTF-8" />
 
-<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="keywords"
+    content="programação, cursos ti, html, css, javascript, python, grupos telegram ti, git, ide, figma, axure"
+  />
 
-<meta name="keywords"
-  content="programação, cursos ti, html, css, javascript, python, grupos telegram ti, git, ide, figma, axure">
+  <!-- CSS Fontawesome -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+  />
 
-<!-- CSS Fontawesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- CSS Bootstrap -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
 
-<!-- CSS Bootstrap -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <head>
+    <!-- CSS Master -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
+  <!-- Corpo da Página -->
 
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <!-- Barra de Navegação -->
+      <nav class="navbar navbar-expand-lg">
+        <!-- Marca do Site -->
 
-<head>
-  <!-- CSS Master -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
+        <a href="https://he110w0r1d.herokuapp.com/" class="navbar-brand marca">
+          <img id="logo" src="img/icon/icone.png" alt="logo" />
+          <img id="marca-nav" src="img/icon/logo-name.png" alt="HE110 W0R1D_" />
+        </a>
 
-<!-- Corpo da Página -->
+        <!-- Botão Expandir Navbar -->
+        <button
+          class="navbar-toggler custom-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <!-- Menu: Primeiros Passos -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-toggle="dropdown"
+              >
+                Primeiros Passos</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="guia-de-ides.html"
+                  >Editores de Código</a
+                >
+                <a class="dropdown-item" href="guia-do-git.html">Guia do GIT</a>
+                <a class="dropdown-item" href="fundamentos.html"
+                  >Fundamentos Básicos</a
+                >
+              </div>
+            </li>
 
-  <!-- Cabeçalho -->
-  <header>
+            <!-- Menu: Linguagens -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-toggle="dropdown"
+              >
+                Linguagens</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="guia-de-html.html">HTML</a>
+                <a class="dropdown-item" href="guia-de-css.html">CSS</a>
+                <a class="dropdown-item" href="Guia-JavaScript.html"
+                  >JavaScript</a
+                >
+                <a class="dropdown-item" href="python.html">Python</a>
+              </div>
+            </li>
 
-    <!-- Barra de Navegação -->
-    <nav class="navbar navbar-expand-lg">
+            <!-- Menu: Blog -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-toggle="dropdown"
+              >
+                Blog</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="news.html">Notícias</a>
+                <a class="dropdown-item" href="Podcasts.html">Podcasts</a>
+                <a class="dropdown-item" href="pratica.html">Exercícios</a>
+                <a class="dropdown-item" href="ferramentas.html">Ferramentas</a>
+                <a class="dropdown-item" href="dicas.html">Dicas</a>
+              </div>
+            </li>
 
-      <!-- Marca do Site -->
-      <a href="#" class="navbar-brand marca">
+            <!-- Menu: Eventos -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Eventos</a>
+            </li>
 
-        <img id="logo" src="img/icon/icone.png" alt="logo">
+            <!-- Menu: Contato -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-toggle="dropdown"
+              >
+                Contato</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="quem%20somos.html">Quem somos</a>
+                <a class="dropdown-item" href="help.html">Ajuda</a>
+              </div>
+            </li>
+          </ul>
 
-        <img id="marca-nav" src="img/icon/logo-name.png" alt="HE110 W0R1D_">
-      </a>
+          <!-- Menu: Caixa de Pesquisa -->
+          <div id="pesquisa">
+            <form class="form-inline">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Busque aqui"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-search btn-outline-dark my-2 my-sm-0"
+                type="submit"
+              >
+                Pesquisar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      <!-- Botão Expandir Navbar -->
-      <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-
-          <!-- Menu: Primeiros Passos -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-              Primeiros Passos</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="guia-de-ides.html">Editores de Código</a>
-              <a class="dropdown-item" href="guia-do-git.html">Guia do GIT</a>
-              <a class="dropdown-item" href="fundamentos.html">Fundamentos Básicos</a>
+    <!-- Conteúdo -->
+    <main>
+      <!-- Conteúdo Principal -->
+      <div id="conteudo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md col-sm">
+              <h1>HE110 W0RD</h1>
             </div>
-          </li>
-
-          <!-- Menu: Linguagens -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-              Linguagens</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="guia-de-html.html">HTML</a>
-              <a class="dropdown-item" href="guia-de-css.html">CSS</a>
-              <a class="dropdown-item" href="Guia-JavaScript.html">JavaScript</a>
-              <a class="dropdown-item" href="python.html">Python</a>
-            </div>
-          </li>
-
-          <!-- Menu: Blog -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-              Blog</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="news.html">Notícias</a>
-              <a class="dropdown-item" href="Podcasts.html">Podcasts</a>
-              <a class="dropdown-item" href="pratica.html">Exercícios</a>
-              <a class="dropdown-item" href="ferramentas.html">Ferramentas</a>
-              <a class="dropdown-item" href="dicas.html">Dicas</a>
-            </div>
-          </li>
-
-          <!-- Menu: Eventos -->
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Eventos</a>
-          </li>
-
-          <!-- Menu: Contato -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-              Contato</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="quem%20somos.html">Quem somos</a>
-              <a class="dropdown-item" href="help.html">Ajuda</a>
-            </div>
-          </li>
-        </ul>
-
-        <!-- Menu: Caixa de Pesquisa -->
-        <div id="pesquisa">
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Busque aqui" aria-label="Search">
-            <button class="btn btn-search btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
+          </div>
+          <div class="row"></div>
         </div>
       </div>
-    </nav>
-  </header>
+    </main>
 
-  <!-- Conteúdo -->
-  <main>
-
-    <!-- Conteúdo Principal -->
-    <div id="conteudo">
+    <!-- Rodapé -->
+    <footer>
       <div class="container">
         <div class="row">
+          <div class="col-md footer-logo col-sm">
+            <span>
+              <img id="logo-footer" src="img/icon/logo.png" alt="logo-footer" />
+            </span>
+          </div>
           <div class="col-md col-sm">
-            <h1> HE110 W0RD</h1>
-          </div>
-        </div>
-        <div class="row">
-
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- Rodapé -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md footer-logo col-sm">
-          <span>
-            <img id="logo-footer" src="img/icon/logo.png" alt="logo-footer">
-          </span>
-        </div>
-        <div class="col-md col-sm">
-          <div id="botao-git">
-            <button
-              onclick="location.href='https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t1-he110_w0r1d'"
-              class="btn btn-search btn-outline-dark my-2 my-sm-0" type="button" name="github">
-              <img class="github" src="img/github-logomark.png" alt="icone-github">
-              <img class="github" src="img/GitHub_Logo.png" alt="nome-github">
-            </button>
-          </div>
-          <div>
-            <p>&copy; 2022 Copyright: HE110 W0R1D_</p>
+            <div id="botao-git">
+              <button
+                onclick="location.href='https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-1-e1-proj-web-t1-he110_w0r1d'"
+                class="btn btn-search btn-outline-dark my-2 my-sm-0"
+                type="button"
+                name="github"
+              >
+                <img
+                  class="github"
+                  src="img/github-logomark.png"
+                  alt="icone-github"
+                />
+                <img
+                  class="github"
+                  src="img/GitHub_Logo.png"
+                  alt="nome-github"
+                />
+              </button>
+            </div>
+            <div>
+              <p>&copy; 2022 Copyright: HE110 W0R1D_</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- JS Scripts Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- JS Scripts Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
