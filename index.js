@@ -25,7 +25,7 @@ app.get("/api/eventos", function (req, res) {
 });
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "src/homepage.html"));
+  res.sendFile(path.join(__dirname, "src/index.html"));
 });
 
 app.listen(port);

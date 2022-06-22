@@ -22,19 +22,19 @@ A home page é composta por um texto que explica o objetivo do site e oque o usu
 
 Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar entre 3 opções sendo "Guia de IDEs" um deles, que apresentará para o usuário a página abaixo com os principais editores de código disponíveis, tal como uma menção bônus do WebStorm (IDE dedicado para Frontend feito pela JetBrains. No final da página contém um vídeo comparando os editores mencionados.
 
-![Wireframe Editores de Código](img/guia_sobre_editores_de_codigo-wireframe.png)
+![Wireframe Editores de Código](img/guia-sobre-editores-de-codigo-wireframe.png)
 
 ### Primeiros Passos: Fundamentos para aprender a programar
 
 Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar a opção "Fundamentos para aprender a programar" que irá navegá-lo para a página abaixo, nela o usuário encontra informações sobre fundamentos desejáveis para uma pessoa que deseja se um programar. Com explicações sobre a importância dos fundamentos matemáticos, assim como fontes externas de como se atualizar sobre. Além de uma área voltada para lógica de programação, acompanhada por um exemplo de código simples, com seu pseudocódigo e por fim um fluxograma representando seu funcionamento, mostrando assim para o usuário algumas das diferentes representações de uma lógica, além do código propriamente dito.
 
-![Wireframe Fundamentos para aprender a programar](img/fundamentos_para_aprender_a_programar-wireframe.png)
+![Wireframe Fundamentos para aprender a programar](img/fundamentos-para-aprender-a-programar-wireframe.png)
 
 ### Primeiros Passos: Guia do Git
 
 Ao clicar no botão "Primeiros Passos" na página inicial, o usuário poderá selecionar a opção "Guia do Git" que irá navegá-lo para a página abaixo, nela o usuário encontra informações sobre a utilidade e instalação do git. Chaves SSH e links para a documentação no github ensinando o necessário e um vídeo sobre o mesmo assunto. Por fim um vídeo para personalização do perfil do github como bônus e os principais comandos utilizados no fluxo de trabalho com git.
 
-![Wireframe Guia do Git](img/guia_do_git-wireframe.png)
+![Wireframe Guia do Git](img/guia-do-git-wireframe.png)
 
 ### Linguagens: HTML
 
@@ -42,19 +42,19 @@ Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionad
 Na página ele encontrará uma breve introdução sobre o HTML, o motivo de não ser consderado uma lingugem de programação, usos comuns para os quais ela se aplica,as novidades que o HTML5 trás consigo e sua estrutura base,
 
 
-![Wireframe %_nome da página_%](img/guia_html-wireframe.png)
+![Wireframe %_nome da página_%](img/guia-html-wireframe.png)
 
 ### Linguagens: CSS
 
 Ao clicar diretamente no botão " CSS " ou se seguir a sequencia do conteúdo de linguagens, o usuário terá acesso ao conteudo destinado para a explicaçao sobre CSS. A página é composta por explicações sobre oque é CSS, como funciona, layuots responsivos , tutorial em video e por ultimo uma explicação sobre o bootstrap seguido de imagens que retratam seus componentes de uso.
 
-![Wireframe CSS e seus principais recursos](img/css_e_principais_recursos.png)
+![Wireframe CSS e seus principais recursos](img/css-e-principais_recursos.png)
 
 ### Linguagens: JavaScript
 
 Ao clicar no botão "Linguagens" na página inicial, o usuário será direcionado para um sub menu onde poderá escolher a opção JavaScript. Na página ele encontrará uma breve introdução sobre a linguagem, onde se usa-lá, a sintaxe básica, como a linguagem atua no ambiente web, a difernça entre Java e JavaScript e por fim será apresentado em vídeo uma explicação mais detalhada dos tópicos anteriormente citados.
 
-![Wireframe JavaScript](img/guia_javasript.png)
+![Wireframe JavaScript](img/guia-javasript.png)
 
 ### Linguagens: Python
 
@@ -84,7 +84,7 @@ Ao clicar no botão "Blog" na página inicial, o usuário poderá selecionar a o
 
 O usuário encontrará a opção "Ferramentas para Desenvolvedores" ao clicar no botão "Blog" na página inicial, essa página consiste em um agregado de ferramentas úteis para facilitar o trabalho do desenvolvedor em diversas áreas, feitas em postagens explicando brevemente em texto uma ferramenta específica e um vídeo ao lado falando sobre ela, como usar ou dicas para otimizar o uso dela.
 
-![Wireframe Ferramentas para Desenvolvedores](img/ferramentas_para_desenvolvedores-wireframe.png)
+![Wireframe Ferramentas para Desenvolvedores](img/ferramentas-para-desenvolvedores-wireframe.png)
 
 ### Blog: Dicas
 
@@ -109,7 +109,7 @@ Ao clicar em uma foto ou video na pagina de Eventos - Lista, o usuário será en
 
 A página destinada a " Quem somos" apresenta ao usuário um breve texto que conta sobre a formaçao do projeto e também as informaçoes da equipe. Além disso, ao final, é apresentado blocos com os nomes de cada membro da equipe bem como o seu github para que o usuario possa conhecer nao somente quem criou o projeto mas também saber mais sobre outros projetos criados pelos mesmos.
 
-![Wireframe %_nome da página_%](img/quem_somos.png)
+![Wireframe %_nome da página_%](img/quem-somos.png)
 
 ### Contato: Ajuda
 
