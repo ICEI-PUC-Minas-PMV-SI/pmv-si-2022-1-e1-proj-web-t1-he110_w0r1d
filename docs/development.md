@@ -69,7 +69,7 @@ Ao acessar acessar a pagina eventos, o usuário visualizará a lista de todos os
 
 Para essa pagina foram desenvolvidos: 
 
-JSON: Um arquivo `JSON src/db-eventos.json` contendo um `array` com todos os eventos `(objetos)` e suas informações que serão carregados dinamicamente no site; 
+JSON: Um arquivo JSON `src/db-eventos.json` contendo um array com todos os eventos (objetos) e suas informações que serão carregados dinamicamente no site; 
 
 ![Arquivo JSON](img/json-eventos.png) <br/>
 
@@ -77,7 +77,7 @@ Filtro de eventos: Foi desenvolvido um filtro do tipo `form-select` onde o usuá
 
 ![Filtro Categoria](img/filtro-eventos.png) <br/>
 
-O filtro apresentado acima conta com uma `função` implementada no arquivo `src/js/eventos.lista` que percorre a lista completa de eventos traduzida para json e trazida para esse arquivo pela api `fetch` buscando a categoria desejada e trazendo para ser carregada na pagina uma nova lista filtrada com o resultado encontrado.
+O filtro apresentado acima conta com uma função implementada no arquivo `src/js/eventos.lista` que percorre a lista completa de eventos traduzida para JSON e trazida para esse arquivo pela api `fetch` buscando a categoria desejada e trazendo para ser carregada na pagina uma nova lista filtrada com o resultado encontrado.
 
 Campo para ordenação dos eventos: Foi desenvolvido também, um `campo ordenação` do tipo `form-select` para que, ao clicar nesse botão, o usuário possa ordenar os eventos disponíveis do primeiro do ano para o ultimo e vice-versa.
 
@@ -91,7 +91,7 @@ Lista Eventos: A `lista de eventos` do site é exibida através de blocos `HTML`
 
 Cada `bloco` de evento (foto pequena do evento, titulo, tipo e data) foi desenvolvido dentro de uma tag `<a>` que ao ser clicada, encaminha o usuário para a pagina DETALHES `src/js/eventos.detalhes`. Essa pagina abre apenas o HTML do evento selecionado, mostrando mais informações sobre o mesmo.
 
-`Pagina detalhes`: Ao abrir a pagina detalhes, será exibida a foto grande do evento, sua descrição e área "deseja participar?" onde foi disponibilizado `link` dentro de uma tag `<a>` que é carregado dinamicamente de acordo com a `URL` descriminada nas informações de cada evento no arquivo `JSON src/db-eventos.json`. Essa URL abre uma nova aba e encaminha o usuário diretamente para o site oficial do evento para se inscrever. 
+Pagina detalhes: Ao abrir a pagina `detalhes`, será exibida a foto grande do evento, sua descrição e área "deseja participar?" onde foi disponibilizado `link` dentro de uma tag `<a>` que é carregado dinamicamente de acordo com a `URL` descriminada nas informações de cada evento no arquivo JSON `src/db-eventos.json`. Essa URL abre uma nova aba e encaminha o usuário diretamente para o site oficial do evento para se inscrever. 
 
 ![Pagina Detalhes](img/detalhes-eventos.jpeg) <br/>
 
