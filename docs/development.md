@@ -57,6 +57,44 @@ Nela está um breve comparativo entre IDEs e Editores de Código, um redireciona
 
 ![Guia de IDE](img/guia-de-ide.png) <br/>
 
+## Pagina Eventos
+
+### Requisitos:
+
+- RF-006 - Disponibilizar uma página com eventos de programação
+
+Para atender ao requisito RF-006 foi criada a pagina `EVENTOS`.
+
+Ao acessar acessar a pagina eventos, o usuário visualizará a lista de todos os eventos de 2022 disponíveis no site. 
+
+Para essa pagina foram desenvolvidos: 
+
+JSON: Um arquivo `JSON src/db-eventos.json` contendo um `array` com todos os eventos `(objetos)` e suas informações que serão carregados dinamicamente no site; 
+
+![Arquivo JSON](img/json-eventos.png) <br/>
+
+Filtro de eventos: Foi desenvolvido um filtro do tipo `form-select` onde o usuário pode selecionar as opções de visualizar todos os eventos, apenas os eventos online ou apenas os eventos presenciais.
+
+![Filtro Categoria](img/filtro-eventos.png) <br/>
+
+O filtro apresentado acima conta com uma `função` implementada no arquivo `src/js/eventos.lista` que percorre a lista completa de eventos traduzida para json e trazida para esse arquivo pela api `fetch` buscando a categoria desejada e trazendo para ser carregada na pagina uma nova lista filtrada com o resultado encontrado.
+
+Campo para ordenação dos eventos: Foi desenvolvido também, um `campo ordenação` do tipo `form-select` para que, ao clicar nesse botão, o usuário possa ordenar os eventos disponíveis do primeiro do ano para o ultimo e vice-versa.
+
+![Filtro Ordenacao](img/ordenacao-eventos.png) <br/>
+
+O campo ordenação também conta com uma função implementada no arquivo `src/js/eventos.lista` que acessa a lista completa dos eventos, reorganizando-os da forma desejada e trazendo o resultado para o usuário.
+
+Lista Eventos: A `lista de eventos` do site é exibida através de blocos `HTML` que são criados dinamicamente por uma função implementada no arquivo `src/js/eventos-lista.js`. Essa função percorre todos os eventos da lista `JSON` e a partir de cada objeto encontrado ele cria um novo HTML e carrega essa lista de blocos HTML na pagina do site.
+
+![Pagina Eventos](img/eventos-completa.jpeg) <br/>
+
+Cada `bloco` de evento (foto pequena do evento, titulo, tipo e data) foi desenvolvido dentro de uma tag `<a>` que ao ser clicada, encaminha o usuário para a pagina DETALHES `src/js/eventos.detalhes`. Essa pagina abre apenas o HTML do evento selecionado, mostrando mais informações sobre o mesmo.
+
+`Pagina detalhes`: Ao abrir a pagina detalhes, será exibida a foto grande do evento, sua descrição e área "deseja participar?" onde foi disponibilizado `link` dentro de uma tag `<a>` que é carregado dinamicamente de acordo com a `URL` descriminada nas informações de cada evento no arquivo `JSON src/db-eventos.json`. Essa URL abre uma nova aba e encaminha o usuário diretamente para o site oficial do evento para se inscrever. 
+
+![Pagina Detalhes](img/detalhes-eventos.jpeg) <br/>
+
 ## Ajuda/Suporte
 
 ### Requisitos:
