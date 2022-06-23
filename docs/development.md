@@ -61,7 +61,7 @@ Nela está um breve comparativo entre IDEs e Editores de Código, um redireciona
 
 ### Requisitos:
 
-- RF-006 - Disponibilizar uma página com eventos de programação
+- RF-006 - Disponibilizar uma página com eventos de programação.
 
 Para atender ao requisito RF-006 foi criada a pagina `EVENTOS`.
 
@@ -77,7 +77,7 @@ Filtro de eventos: Foi desenvolvido um filtro do tipo `form-select` onde o usuá
 
 ![Filtro Categoria](img/filtro-eventos.png) <br/>
 
-O filtro apresentado acima conta com uma função implementada no arquivo `src/js/eventos.lista` que percorre a lista completa de eventos traduzida para JSON e trazida para esse arquivo pela api `fetch` buscando a categoria desejada e trazendo para ser carregada na pagina uma nova lista filtrada com o resultado encontrado.
+O filtro apresentado acima conta com uma função implementada no arquivo `src/js/eventos.lista` que percorre a lista completa de eventos traduzida para JSON e trazida para esse arquivo pela api `FETCH` buscando a categoria desejada e trazendo para ser carregada na pagina uma nova lista filtrada com o resultado encontrado.
 
 Campo para ordenação dos eventos: Foi desenvolvido também, um `campo ordenação` do tipo `form-select` para que, ao clicar nesse botão, o usuário possa ordenar os eventos disponíveis do primeiro do ano para o ultimo e vice-versa.
 
