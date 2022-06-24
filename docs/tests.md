@@ -21,8 +21,9 @@ Note que foi usado uma formatação específica para recursos que são repetidos
 | TF-013   | Eventos            | Ao clicar em 'selecione a categoria', é esperado que o usuário possa visualizar as opções de filtrar a lista de eventos por: 'todos os eventos', 'eventos online' e 'eventos presenciais'. |
 | TF-014   | Eventos            | Ao clicar em qualquer uma das opções que o filtro 'selecione a categoria' oferece, é esperado que a filtragem seja realizada com sucesso e que o usuário receba a lista apenas com os eventos requisitados. |
 | TF-015   | Eventos            | Ao clicar em 'ordenar', é esperado que o usuário possa visualizar a opção de reorganizar a lista de eventos do primeiro evento do ano para o ultimo, e do ultimo evento do ano para o primeiro. |
-| TF-016   | Eventos            | Ao clicar em 'ordenar', e selecionar a forma de ordenação desejada, é esperado que o usuário receba a lista com os eventos reorganizados como solicitado. |
-| TF-017   | Eventos Detalhes   | Ao clicar em qualquer um dos eventos e ser direcionado para a pagina de 'detalhes' do evento escolhido, é esperado que o usuário visualize a foto do evento, sua descrição e o link do site oficial do evento. |
+| TF-016   | Eventos            | Ao clicar em 'ordenar', e selecionar a forma de ordenação desejada, é esperado que o usuário receba a lista com os eventos reorganizados como solicitado. |  
+  
+| TF-017   | Eventos            | Ao clicar em qualquer um dos eventos é esperado que o usuário seja direcionado para a página de 'detalhes' do evento escolhido e visualize sua foto, sua descrição e o link que ao ser clicado o encaminhará para o site oficial do evento. |
 | TF-018   | Eventos Detalhes   | Na pagina 'detalhes', ao clicar no link do site oficial do evento, é esperado que outra aba seja aberta no navegador do usuário, encaminhando o mesmo para o site oficial do evento. |
 | TF-00   | Local              | && descrição &&                                                                                                                                                                 |
 
@@ -49,7 +50,7 @@ Note que foi usado uma formatação específica para recursos que são repetidos
 | RTF-014  | Eventos            | Ao clicar em qualquer uma das opções que o filtro 'selecione a categoria' oferece, a filtragem é realizada com sucesso e o usuário rapidamente recebe a lista apenas com os eventos requisitados. | Não  |
 | RTF-015  | Eventos            | Ao clicar em 'ordenar', o usuário visualiza a opção de reorganizar a lista de eventos do primeiro evento do ano para o ultimo, e do ultimo evento do ano para o primeiro. | Não  |
 | RTF-016  | Eventos            | Ao clicar em 'ordenar', e selecionar a forma de ordenação desejada, o usuário recebe a lista com os eventos reorganizados como solicitado com sucesso. | Não  |
-| RTF-017  | Eventos Detalhes   | Ao clicar em qualquer um dos eventos e ser direcionado para a pagina de 'detalhes' do evento escolhido, o usuário visualiza a foto do evento, sua descrição e o link do site oficial do evento. | Não  |
+| RTF-017  | Eventos            | Ao clicar em qualquer um dos eventos o usuário é direcionado para a página de 'detalhes' do evento escolhido com sucesso e visualiza sua foto, sua descrição e o link que ao ser clicado o encaminhará para o site oficial do evento. | Não  |
 | RTF-018  | Eventos Detalhes   | Na pagina 'detalhes, ao clicar no link do site oficial do evento, outra aba é aberta no navegador do usuário, encaminhando o mesmo para o site oficial do evento com sucesso. | Não  |
 | RTF-000  | Local              | && descrição &&                                                                                                                                | Não  |
 
