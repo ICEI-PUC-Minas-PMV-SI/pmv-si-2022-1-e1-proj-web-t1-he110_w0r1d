@@ -17,11 +17,14 @@ Note que foi usado uma formatação específica para recursos que são repetidos
 | TF-000   | Ferramentas        | Os botões 'DOWNLOAD' deverão redirecionar o usuário para a página de download do software desejado se disponível.                                                               |
 | TF-000   | Ferramentas        | Os botões 'DOCS' deverão redirecionar o usuário para a página de documentação do software desejado se disponível.                                                               |
 | TF-000   | Ajuda              | É esperado que ao clicar no botão `Enviar` os dados fornecidos pelo usuário no formulário, sejam enviados para o email do projeto corretamente, seguindo a formatação desejada. |
-| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
-| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
-| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
-| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
-| TF-000   | Local              | && descrição &&                                                                                                                                                                 |
+| TF-0012  | Eventos            | Ao abrir a pagina Eventos, é esperado que seja carregada a lista que contem todos os eventos disponíveis no site, bem como o filtro por categoria, o campo para ordenação, a topbar e a footbar. |
+| TF-013   | Eventos            | Ao clicar em 'selecione a categoria', é esperado que o usuário possa visualizar as opções de filtrar a lista de eventos por: 'todos os eventos', 'eventos online' e 'eventos presenciais'. |
+| TF-014   | Eventos            | Ao clicar em qualquer uma das opções que o filtro 'selecione a categoria' oferece, é esperado que a filtragem seja realizada com sucesso e que o usuário receba a lista apenas com os eventos requisitados. |
+| TF-015   | Eventos            | Ao clicar em 'ordenar', é esperado que o usuário possa visualizar a opção de reorganizar a lista de eventos do primeiro evento do ano para o ultimo, e do ultimo evento do ano para o primeiro. |
+| TF-016   | Eventos            | Ao clicar em 'ordenar', e selecionar a forma de ordenação desejada, é esperado que o usuário receba a lista com os eventos reorganizados como solicitado. |
+| TF-017   | Eventos Detalhes   | Ao clicar em qualquer um dos eventos e ser direcionado para a pagina de 'detalhes' do evento escolhido, é esperado que o usuário visualize a foto do evento, sua descrição e o link do site oficial do evento. |
+| TF-018   | Eventos Detalhes   | Na pagina 'detalhes', ao clicar no link do site oficial do evento, é esperado que outra aba seja aberta no navegador do usuário, encaminhando o mesmo para o site oficial do evento. |
+| TF-00   | Local              | && descrição &&                                                                                                                                                                 |
 
 
 # Registro de Testes de Software
@@ -41,12 +44,14 @@ Note que foi usado uma formatação específica para recursos que são repetidos
 | RTF-000  | Ferramentas        | O botão 'DOWNLOAD' redireciona o usuário corretamente para a página de download do artefato desejado.                                          | Não   |
 | RTF-000  | Ferramentas        | O botão 'DOCS' redireciona o usuário corretamente para a página com a documentação do artefato desejado.                                       | Não   |
 | RTF-000  | Ajuda              | O formulário se apresenta funcional como esperado, os dados estão sendo enviados corretamente com a formatação esperada no corpo do email.     | Não   |
-| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
-| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
-| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
-| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
-| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
-| RTF-000  | Local              | && descrição &&                                                                                                                                | S/N?  |
+| RTF-012  | Eventos            | Foi carregada a lista de todos os eventos do site, bem como o filtro por categoria, campo de ordenação, topbar e footbar sem atraso. | S/N?  |
+| RTF-013  | Eventos            | Ao clicar em 'selecione a categoria' o usuário visualiza as opções de filtrar a lista de eventos por: 'eventos presenciais', 'eventos online' ou 'todos os eventos'. | Não  |
+| RTF-014  | Eventos            | Ao clicar em qualquer uma das opções que o filtro 'selecione a categoria' oferece, a filtragem é realizada com sucesso e o usuário rapidamente recebe a lista apenas com os eventos requisitados. | Não  |
+| RTF-015  | Eventos            | Ao clicar em 'ordenar', o usuário visualiza a opção de reorganizar a lista de eventos do primeiro evento do ano para o ultimo, e do ultimo evento do ano para o primeiro. | Não  |
+| RTF-016  | Eventos            | Ao clicar em 'ordenar', e selecionar a forma de ordenação desejada, o usuário recebe a lista com os eventos reorganizados como solicitado com sucesso. | Não  |
+| RTF-017  | Eventos Detalhes   | Ao clicar em qualquer um dos eventos e ser direcionado para a pagina de 'detalhes' do evento escolhido, o usuário visualiza a foto do evento, sua descrição e o link do site oficial do evento. | Não  |
+| RTF-018  | Eventos Detalhes   | Na pagina 'detalhes, ao clicar no link do site oficial do evento, outra aba é aberta no navegador do usuário, encaminhando o mesmo para o site oficial do evento com sucesso. | Não  |
+| RTF-000  | Local              | && descrição &&                                                                                                                                | Não  |
 
 
 ## Avaliação
