@@ -119,6 +119,6 @@ Ao clicar no botão "Contato" seguido da opção "Ajuda" presente na página ini
 
 </div>
 
-<br>
+<hr>
 
-<p align="right"><a href="./especification.md">Especificações</a>
+<p align="right"><a href="./especification.md">Especificação do Projeto</a> | <a href="./template.md">Template Padrão</a></p>

@@ -70,6 +70,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| Utilização do HTML5 no desenvolvimento do site        |
 
 
-<br>
+<hr>
 
-<p align="right"><a href="./context.md">Contexto</a> | <a href="./interface.md">Fluxo de Usuário & UI</a></p>
+<p align="right"><a href="./context.md">Documentação de Contexto</a> | <a href="./interface.md">Projeto de Interface</a></p>
