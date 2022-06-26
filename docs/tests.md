@@ -26,7 +26,7 @@ Note que foi usado uma formatação específica para recursos que são repetidos
 | TF-018   | Eventos Detalhes   | Na pagina 'detalhes', ao clicar no link do site oficial do evento, é esperado que outra aba seja aberta no navegador do usuário, encaminhando o mesmo para o site oficial do evento.                                                        |
 | TF-00    | Local              | && descrição &&                                                                                                                                                                                                                            |
 |TF-019   | Notícias   | Ao clicar na página de notícias é esperado que a API carregue as notícias com suas descrições e links.|
-|TF-020   | Podcasts   | Ao clicar no botão 'ouvir mais' no final dos cards dos podcasts é esperado que o usuário seja redirecionado à página do podcast escolhido.|
+|TF-020   | Podcasts   | Ao clicar no botão 'ouça aqui' no final dos cards dos podcasts é esperado que o usuário seja redirecionado à página do podcast escolhido.|
 
 # Registro de Testes de Software
 
@@ -53,7 +53,7 @@ Note que foi usado uma formatação específica para recursos que são repetidos
 | RTF-017  | Eventos            | Ao clicar em qualquer um dos eventos o usuário é direcionado para a página de 'detalhes' do evento escolhido com sucesso e visualiza sua foto, sua descrição e o link que ao ser clicado o encaminhará para o site oficial do evento. | Não   |
 | RTF-018  | Eventos Detalhes   | Na pagina 'detalhes, ao clicar no link do site oficial do evento, outra aba é aberta no navegador do usuário, encaminhando o mesmo para o site oficial do evento com sucesso.                                                         | Não   |
 | RTF-019  |Notícias   | Ao clicar na página de notícias, a API carrega as notícias com suas descrições e links que redirecionam para as páginas onde as notícias podem ser lidas caso seja de interesse do usuário.                                                         | Não  |
-| RTF-020  | Podcasts   | Na pagina de podcasts, ao clicar no botão 'ouvir mais' outra aba é aberta no navegador do usuário, encaminhando o mesmo para o site oficial do podcast.  
+| RTF-020  | Podcasts   | Na pagina de podcasts, ao clicar no botão 'ouça aqui' outra aba é aberta no navegador do usuário, encaminhando o mesmo para o site oficial do podcast.  
 | RTF-000  | Local              | && descrição &&                                                                                                                                                                                                                       | Não   |
 
 
