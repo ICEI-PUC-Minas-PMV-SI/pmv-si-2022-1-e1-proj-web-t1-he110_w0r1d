@@ -58,13 +58,23 @@ Note que foi usado uma formatação específica para recursos que são repetidos
 
 Foram realizados os testes de usabilidade do sistema na sexta-feira 24 de Junho de 2022, seguindo o roteiro de testes baseado nos principais requisitos funcionais. Veja quais foram os requisitos funcionais usados [aqui](especification.md).
 
-| RF-00n     | Tarefa do Usuário                                               | Usuário 1 | Usuário 2 | Usuário 3 |
-|------------|-----------------------------------------------------------------|-----------|-----------|-----------|
-| RF-006     | Encontre um evento e suas informações (data, local, descrição). | OK        | OK        | OK        |
-| RF-003/004 | Encontre informações sobre linguagens de programação.           | OK        | OK        | OK        |
-| RF-001     | Encontre e escolha um editor de código.                         | OK        | OK        | FAIL      |
-| RF-005/013 | Encontre dicas e extensões.                                     | OK        | OK        | OK        |
-| RF-007     | Entre em contato com os desenvolvedores                         | OK        | OK        | OK        |
+| CT-00n | RF-00n     | Tarefa do Usuário                                               | Usuário 1 | Usuário 2 | Usuário 3 |
+|--------|------------|-----------------------------------------------------------------|-----------|-----------|-----------|
+| CT-001 | RF-006     | Encontre um evento e suas informações (data, local, descrição). | OK        | OK        | OK        |
+| CT-002 | RF-003/004 | Encontre informações sobre linguagens de programação.           | OK        | OK        | OK        |
+| CT-003 | RF-001     | Encontre e escolha um editor de código.                         | OK        | OK        | FAIL      |
+| CT-004 | RF-005/013 | Encontre dicas e extensões.                                     | OK        | OK        | OK        |
+| CT-005 | RF-007     | Entre em contato com os desenvolvedores                         | OK        | OK        | OK        |
+
+Legenda: `CT = Cenário de teste` , `TS = Taxa de Sucesso`, `(U#) = Usuário # (1,2,3)`.
+
+| CT-00n | TS (U1) | Nota (U1) | TS (U2) | Nota (U2) | TS (U3) | Nota (U3) | TS Média | Nota Média |
+|--------|---------|-----------|---------|-----------|---------|-----------|----------|------------|
+| CT-001 | 100%    | 5         | 100%    | 5         | 100%    | 5         | 100%     | 5          |
+| CT-002 | 100%    | 3         | 100%    | 4         | 100%    | 5         | 100%     | 4          |
+| CT-003 | 100%    | 4         | 100%    | 5         | 0%      | 1         | 67%      | 3.3        |
+| CT-004 | 100%    | 4         | 100%    | 4         | 100%    | 5         | 100%     | 4.3        |
+| CT-005 | 100%    | 5         | 100%    | 3         | 100%    | 4         | 100%     | 4          |
 
 Até o momento não foram encontrados bugs funcionais, mas ajustes de responsividade para mobile ainda estão em desenvolvimento.
 
